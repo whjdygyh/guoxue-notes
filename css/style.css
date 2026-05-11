@@ -598,8 +598,8 @@ body {
 .card-meihua::before { background: var(--accent-jade); }
 .card-united h3 { color: var(--accent-vermilion); }
 .card-united::before { background: var(--accent-vermilion); }
-.card-liuyun h3 { color: var(--accent-gold); }
-.card-liuyun::before { background: var(--accent-gold); }
+.card-liuyun h3 { color: var(--accent-blue); }
+.card-liuyun::before { background: var(--accent-blue); }
 
 /* Recent entries */
 .recent-section {
