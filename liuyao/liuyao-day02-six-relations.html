@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 2 · 国学天师 · 国学天师</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="app-wrapper">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h1>国学天师</h1>
+      <div class="subtitle">自 学 笔 记</div>
+    </div>
+    <div class="sidebar-search">
+      <input type="text" id="searchInput" placeholder="搜索笔记…">
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+☰ 周易
+</div>
+<ul class="nav-items ">
+<li class="nav-item"><a href="../yijing/day01-yinyang-bagua.html">第一天 · 阴阳爻与八卦本象 <span class="tag tag-yijing">Day1</span></a></li>
+<li class="nav-item"><a href="../yijing/day02-bagua-symbols-yaowei.html">第二天 · 八卦基本象征 + 爻位关系 <span class="tag tag-yijing">Day2</span></a></li>
+<li class="nav-item"><a href="../yijing/day03-64gua-circle-chart.html">第三天 · 六十四卦方圆图 + 六十四卦排列逻辑 <span class="tag tag-yijing">Day3</span></a></li>
+<li class="nav-item"><a href="../yijing/day04-qian-kun.html">第四天 · 六十四卦精读（一）：乾坤两卦 <span class="tag tag-yijing">Day4</span></a></li>
+<li class="nav-item"><a href="../yijing/day05-tun-meng-xu-song-shi-bi.html">第五天 · 六十四卦精读（二）：屯蒙需讼师比 <span class="tag tag-yijing">Day5</span></a></li>
+<li class="nav-item"><a href="../yijing/day06-xiaochu-lv-tai-pi-tongren-dayou.html">第六天 · 六十四卦精读（三）：小畜履泰否同人大有 <span class="tag tag-yijing">Day6</span></a></li>
+<li class="nav-item"><a href="../yijing/day07-qian-yu-sui-gu-lin-guan.html">第七天 · 六十四卦精读（四）：谦豫随蛊临观 <span class="tag tag-yijing">Day7</span></a></li>
+<li class="nav-item"><a href="../yijing/day08-shike-bi-bo-fu-wuwang-dachu.html">第八天 · 六十四卦精读（五）：噬嗑贲剥复无妄大畜 <span class="tag tag-yijing">Day8</span></a></li>
+<li class="nav-item"><a href="../yijing/day09-yi-daguo-kan-li-xian-heng.html">第九天 · 六十四卦精读（六）：颐大过坎离咸恒 <span class="tag tag-yijing">Day9</span></a></li>
+<li class="nav-item"><a href="../yijing/day10-jin-mingyi-jiaren-kui-jian-jie.html">第十天 · 六十四卦精读（七）：晋明夷家人睽蹇解 <span class="tag tag-yijing">Day10</span></a></li>
+<li class="nav-item"><a href="../yijing/day11-sun-yi-guai-gou-cui-sheng.html">第十一天 · 六十四卦精读（八）：损益夬姤萃升 <span class="tag tag-yijing">Day11</span></a></li>
+<li class="nav-item"><a href="../yijing/day12-kun-jing-ge-ding-zhen-gen.html">第十二天 · 六十四卦精读（九）：困井革鼎震艮 <span class="tag tag-yijing">Day12</span></a></li>
+<li class="nav-item"><a href="../yijing/day13-jian-guimei-feng-lv-xun-dui.html">第十三天 · 六十四卦精读（十）：渐归妹丰旅巽兑 <span class="tag tag-yijing">Day13</span></a></li>
+<li class="nav-item"><a href="../yijing/day14-huan-jie-zhongfu-xiaoguo-jiji-weiji.html">第十四天 · 六十四卦精读（终）：涣节中孚小过既济未济 <span class="tag tag-yijing">Day14</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+📜 系辞传
+</div>
+<ul class="nav-items ">
+<li class="nav-item"><a href="../xici/xici-01-upload-1-6.html">二、第一章 · 乾坤定位 · 天地之始 <span class="tag tag-xici">章1</span></a></li>
+<li class="nav-item"><a href="../xici/xici-02-upload-7-12.html">三、第九章 · 天数地数 <span class="tag tag-xici">章2</span></a></li>
+<li class="nav-item"><a href="../xici/xici-03-download-full.html">三、第二章 · 天下之动，贞夫一者也 <span class="tag tag-xici">章3</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🌬 五运六气
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day01-wuyun-foundation.html">Day 1 · 五运基础：天干化运、大运主运客运 <span class="tag tag-wuyun">Day1</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day02-liuqi-foundation.html">Day 2 · 六气基础：地支化气、司天在泉、主气客气 <span class="tag tag-wuyun">Day2</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day03-kezhu-jialin-yunqi.html">Day 3 · 客主加临与运气相合 <span class="tag tag-wuyun">Day3</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day04-shengfu-yufa-tizhi.html">Day 4 · 胜复郁发、体质推断、综合实战 <span class="tag tag-wuyun">Day4</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+⚔ 奇门地基
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../qimen/qimen-day01-foundation.html">第一天 · 奇门地基：五行天干地支九宫 <span class="tag tag-qimen">Day1</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day02-nine-stars-eight-doors-gods.html">第二天 · 九星八门八神详解 <span class="tag tag-qimen">Day2</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day03-pan-calculation.html">第三天 · 排盘实操：阴阳遁与节气定局 <span class="tag tag-qimen">Day3</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day04-duanju-intro.html">第四天 · 断局入门：用神分析与旺衰判断 <span class="tag tag-qimen">Day4</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day05-patterns-and-omens.html">第五天 · 格局全解：吉格凶格与克应 <span class="tag tag-qimen">Day5</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🎯 奇门实战
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../qimen-practice/qimen-practice-day01.html">第12周·日常断局 Day 01 — 2026年5月10日 <span class="tag tag-qimen">Day0</span></a></li>
+<li class="nav-item"><a href="../qimen-practice/qimen-practice-day02.html">Day 0 <span class="tag tag-qimen">Day0</span></a></li>
+<li class="nav-item"><a href="../qimen-practice/qimen-practice-day03.html">Day 0 <span class="tag tag-qimen">Day0</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🪙 起卦实战
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../practice/practice-day01-coins-casting.html">九、今天学到了什么 <span class="tag tag-practice">Day1</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day02-interpretation-method.html">九、今天学到了什么 <span class="tag tag-practice">Day2</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day03-tiyong-shengke.html">八、今天学到了什么 <span class="tag tag-practice">Day3</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day04-plum-blossom-numbers.html">八、今天学到了什么 <span class="tag tag-practice">Day4</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day05-comprehensive-combat.html">五、今天学到了什么 <span class="tag tag-practice">Day5</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🔮 六爻纳甲
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../liuyao/liuyao-day01-zhuang-gua-fa.html">Day 1 <span class="tag tag-liuyao">Day1</span></a></li>
+<li class="nav-item"><a href="../liuyao/liuyao-day02-six-relations.html">Day 2 <span class="tag tag-liuyao">Day2</span></a></li>
+<li class="nav-item"><a href="../liuyao/liuyao-day03-divination-practice.html">八、六爻纳甲 · 三天的知识地图 <span class="tag tag-liuyao">Day3</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🌸 梅花进阶
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../meihua/meihua-day04-wanwu-leixiang.html">Day 4 <span class="tag tag-meihua">Day4</span></a></li>
+<li class="nav-item"><a href="../meihua/meihua-day05-waiying-quxiang.html">Day 5 <span class="tag tag-meihua">Day5</span></a></li>
+<li class="nav-item"><a href="../meihua/meihua-day06-comprehensive-combat.html">Day 6 <span class="tag tag-meihua">Day6</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+⚡ 联合实战
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../united/united-day07-yijing-qimen-combined.html">Day 7 <span class="tag tag-united">Day7</span></a></li>
+<li class="nav-item"><a href="../united/united-day08-real-cases.html">Day 8 <span class="tag tag-united">Day8</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title"><span class="arrow">▼</span>📋 实战案例</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../cases/20wan-debt.html">💰 20万债权 断盘日记 <span class="tag tag-case">案例</span></a></li>
+</ul></div>
+    </nav>
+  </aside>
+
+  <main class="main-content">
+    <div class="topbar">
+      <button class="menu-toggle" id="menuToggle">☰</button>
+      <div class="breadcrumb">
+        <a href="../index.html">首页</a>
+      </div>
+      <div class="page-title">Day 2 · 国学天师</div>
+    </div>
+
+    <div class="page-content">
+      <article class="article" id="main-article">
+        <div class="article-body" id="article-body">
+          <nav class="toc"><div class="toc-title">目录</div><ul><li class="toc-h2"><a href="#一什么是六亲">一、什么是六亲</a></li><li class="toc-h3"><a href="#五行生克关系图">  五行生克关系图</a></li><li class="toc-h3"><a href="#真实含义对照表">  真实含义对照表</a></li><li class="toc-h2"><a href="#二按五行定六亲的实战操作">二、按五行定六亲的实战操作</a></li><li class="toc-h3"><a href="#五行的六亲归属对应当宫五行">  五行的六亲归属（对应当宫五行）</a></li><li class="toc-h3"><a href="#乾宫金六亲">  乾宫（金）六亲</a></li><li class="toc-h3"><a href="#坎宫水六亲">  坎宫（水）六亲</a></li><li class="toc-h3"><a href="#艮宫土六亲">  艮宫（土）六亲</a></li><li class="toc-h3"><a href="#震宫木六亲">  震宫（木）六亲</a></li><li class="toc-h3"><a href="#巽宫木同震宫">  巽宫（木）— 同震宫</a></li><li class="toc-h3"><a href="#离宫火六亲">  离宫（火）六亲</a></li><li class="toc-h3"><a href="#坤宫土同艮宫">  坤宫（土）— 同艮宫</a></li><li class="toc-h3"><a href="#兑宫金同乾宫">  兑宫（金）— 同乾宫</a></li><li class="toc-h3"><a href="#完整示例水雷屯六亲">  完整示例：䷂ 水雷屯 + 六亲</a></li><li class="toc-h2"><a href="#三用神元神忌神仇神">三、用神、元神、忌神、仇神</a></li><li class="toc-h3"><a href="#用神你要问的目标">  用神（你要问的目标）</a></li><li class="toc-h3"><a href="#元神生用神的爻">  元神（生用神的爻）</a></li><li class="toc-h3"><a href="#忌神克用神的爻">  忌神（克用神的爻）</a></li><li class="toc-h3"><a href="#仇神生忌神的爻">  仇神（生忌神的爻）</a></li><li class="toc-h3"><a href="#四者关系图">  四者关系图</a></li><li class="toc-h3"><a href="#实战口诀">  实战口诀</a></li><li class="toc-h2"><a href="#四飞伏">四、飞伏</a></li><li class="toc-h3"><a href="#什么时候有伏神">  什么时候有伏神？</a></li><li class="toc-h3"><a href="#找伏神的方法">  找伏神的方法</a></li><li class="toc-h2"><a href="#五完整示例用六亲断一件事">五、完整示例：用六亲断一件事</a></li><li class="toc-h3"><a href="#案例问财运用神妻财">  案例：问财运 → 用神 = 妻财</a></li><li class="toc-h2"><a href="#六练习">六、练习</a></li><li class="toc-h3"><a href="#练习1">  练习1</a></li><li class="toc-h3"><a href="#练习2">  练习2</a></li><li class="toc-h2"><a href="#七今日掌握检查">七、今日掌握检查</a></li></ul></nav><h1>六爻纳甲 · Day 02 · 六亲体系 · 用神元神忌神仇神飞伏</h1>
+<hr />
+<p>Day01学会了装卦——把六爻填上天干地支五行。今天是六爻断卦的<strong>核心引擎</strong>：六亲。</p>
+<p>六亲不是说"六种亲戚"，而是<strong>六种符号关系</strong>——每一爻根据它的五行与你（宫位五行）的关系，被赋予一个身份。这个身份决定了它在卦里扮演什么角色。</p>
+<hr />
+<h2 id="一什么是六亲">一、什么是六亲</h2>
+<p>六爻里 "我" = <strong>该卦所属宫位的五行</strong>。</p>
+<p>以"我"为参照，万物关系只有五种：</p>
+<div class="codehilite"><pre><span></span><code>             生我者 ─── 父母
+             同我者 ─── 兄弟
+             我生者 ─── 子孙
+             我克者 ─── 妻财
+             克我者 ─── 官鬼
+</code></pre></div>
+
+<p>再加一个<strong>自身</strong>（也称<strong>世爻</strong>所在），合称六亲。</p>
+<h3 id="五行生克关系图">五行生克关系图</h3>
+<div class="codehilite"><pre><span></span><code>           生我（父母）
+            ↑
+ 我 ←—— 克我（官鬼）
+ 的 ─→ 我克（妻财）
+ 五 ─→ 我生（子孙）
+ 行 ─→ 同我（兄弟）
+</code></pre></div>
+
+<h3 id="真实含义对照表">真实含义对照表</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">六亲</th>
+<th style="text-align: center;">五行关系</th>
+<th style="text-align: left;">代表的事物</th>
+<th style="text-align: left;">代表的六亲人物</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>官鬼</strong></td>
+<td style="text-align: center;">克我者</td>
+<td style="text-align: left;">事业、官职、灾祸、压力、病痛、小人</td>
+<td style="text-align: left;">丈夫（女占）、上司</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>父母</strong></td>
+<td style="text-align: center;">生我者</td>
+<td style="text-align: left;">长辈、学业、文书、契约、房屋、车辆</td>
+<td style="text-align: left;">父母、老师、保护者</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>兄弟</strong></td>
+<td style="text-align: center;">同我者</td>
+<td style="text-align: left;">竞争、花费、破财、同伴、手气</td>
+<td style="text-align: left;">兄弟朋友、同事</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>妻财</strong></td>
+<td style="text-align: center;">我克者</td>
+<td style="text-align: left;">钱财、资产、物资、收益</td>
+<td style="text-align: left;">妻子（男占）、女伴</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>子孙</strong></td>
+<td style="text-align: center;">我生者</td>
+<td style="text-align: left;">福神、解忧、快乐、投资、创意、顾客</td>
+<td style="text-align: left;">孩子、晚辈、下属</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>自身</strong></td>
+<td style="text-align: center;">世爻</td>
+<td style="text-align: left;">问卦人自己</td>
+<td style="text-align: left;">本人</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>注意</strong>：官鬼对女（问婚姻）= 丈夫，但官鬼本身也是"管我的力量"——压力、上司、官司全在这里看。妻财对男（问婚姻）= 妻子，但妻财本身也是"我控制的东西"——钱、物资。</p>
+</blockquote>
+<p>这是六爻最核心的翻译表。<strong>学完这张表，你已经看懂六爻八成的内容了。</strong></p>
+<hr />
+<h2 id="二按五行定六亲的实战操作">二、按五行定六亲的实战操作</h2>
+<p>每个宫有自己固定的六亲排列方式。</p>
+<h3 id="五行的六亲归属对应当宫五行">五行的六亲归属（对应当宫五行）</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">宫五行</th>
+<th style="text-align: center;">金(木)</th>
+<th style="text-align: center;">木(木)</th>
+<th style="text-align: center;">水(水)</th>
+<th style="text-align: center;">火(火)</th>
+<th style="text-align: center;">土(土)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>官鬼 (克我)</strong></td>
+<td style="text-align: center;">火克金</td>
+<td style="text-align: center;">金克木</td>
+<td style="text-align: center;">土克水</td>
+<td style="text-align: center;">水克火</td>
+<td style="text-align: center;">木克土</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>父母 (生我)</strong></td>
+<td style="text-align: center;">土生金</td>
+<td style="text-align: center;">水生木</td>
+<td style="text-align: center;">金生水</td>
+<td style="text-align: center;">木生火</td>
+<td style="text-align: center;">火生土</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>兄弟 (同我)</strong></td>
+<td style="text-align: center;">金</td>
+<td style="text-align: center;">木</td>
+<td style="text-align: center;">水</td>
+<td style="text-align: center;">火</td>
+<td style="text-align: center;">土</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>妻财 (我克)</strong></td>
+<td style="text-align: center;">金克木</td>
+<td style="text-align: center;">木克土</td>
+<td style="text-align: center;">水克火</td>
+<td style="text-align: center;">火克金</td>
+<td style="text-align: center;">土克水</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>子孙 (我生)</strong></td>
+<td style="text-align: center;">金生水</td>
+<td style="text-align: center;">木生火</td>
+<td style="text-align: center;">水生木</td>
+<td style="text-align: center;">火生土</td>
+<td style="text-align: center;">土生金</td>
+</tr>
+</tbody>
+</table>
+<p>看懵了？下面是<strong>八个宫逐个展开的六亲表</strong>，实战直接查：</p>
+<h3 id="乾宫金六亲">乾宫（金）六亲</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">五行</th>
+<th style="text-align: center;">地支</th>
+<th style="text-align: center;">六亲</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">金</td>
+<td style="text-align: center;">申→酉</td>
+<td style="text-align: center;"><strong>兄弟</strong>（同我）</td>
+</tr>
+<tr>
+<td style="text-align: center;">水</td>
+<td style="text-align: center;">亥→子</td>
+<td style="text-align: center;"><strong>子孙</strong>（我生）</td>
+</tr>
+<tr>
+<td style="text-align: center;">木</td>
+<td style="text-align: center;">寅→卯</td>
+<td style="text-align: center;"><strong>妻财</strong>（我克）</td>
+</tr>
+<tr>
+<td style="text-align: center;">火</td>
+<td style="text-align: center;">巳→午</td>
+<td style="text-align: center;"><strong>官鬼</strong>（克我）</td>
+</tr>
+<tr>
+<td style="text-align: center;">土</td>
+<td style="text-align: center;">辰戌丑未</td>
+<td style="text-align: center;"><strong>父母</strong>（生我）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="坎宫水六亲">坎宫（水）六亲</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">五行</th>
+<th style="text-align: center;">地支</th>
+<th style="text-align: center;">六亲</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">水</td>
+<td style="text-align: center;">亥→子</td>
+<td style="text-align: center;"><strong>兄弟</strong>（同我）</td>
+</tr>
+<tr>
+<td style="text-align: center;">木</td>
+<td style="text-align: center;">寅→卯</td>
+<td style="text-align: center;"><strong>子孙</strong>（我生）</td>
+</tr>
+<tr>
+<td style="text-align: center;">火</td>
+<td style="text-align: center;">巳→午</td>
+<td style="text-align: center;"><strong>妻财</strong>（我克）</td>
+</tr>
+<tr>
+<td style="text-align: center;">土</td>
+<td style="text-align: center;">辰戌丑未</td>
+<td style="text-align: center;"><strong>官鬼</strong>（克我）</td>
+</tr>
+<tr>
+<td style="text-align: center;">金</td>
+<td style="text-align: center;">申→酉</td>
+<td style="text-align: center;"><strong>父母</strong>（生我）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="艮宫土六亲">艮宫（土）六亲</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">五行</th>
+<th style="text-align: center;">地支</th>
+<th style="text-align: center;">六亲</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">土</td>
+<td style="text-align: center;">辰戌丑未</td>
+<td style="text-align: center;"><strong>兄弟</strong>（同我）</td>
+</tr>
+<tr>
+<td style="text-align: center;">金</td>
+<td style="text-align: center;">申→酉</td>
+<td style="text-align: center;"><strong>子孙</strong>（我生）</td>
+</tr>
+<tr>
+<td style="text-align: center;">水</td>
+<td style="text-align: center;">亥→子</td>
+<td style="text-align: center;"><strong>妻财</strong>（我克）</td>
+</tr>
+<tr>
+<td style="text-align: center;">木</td>
+<td style="text-align: center;">寅→卯</td>
+<td style="text-align: center;"><strong>官鬼</strong>（克我）</td>
+</tr>
+<tr>
+<td style="text-align: center;">火</td>
+<td style="text-align: center;">巳→午</td>
+<td style="text-align: center;"><strong>父母</strong>（生我）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="震宫木六亲">震宫（木）六亲</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">五行</th>
+<th style="text-align: center;">地支</th>
+<th style="text-align: center;">六亲</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">木</td>
+<td style="text-align: center;">寅→卯</td>
+<td style="text-align: center;"><strong>兄弟</strong>（同我）</td>
+</tr>
+<tr>
+<td style="text-align: center;">火</td>
+<td style="text-align: center;">巳→午</td>
+<td style="text-align: center;"><strong>子孙</strong>（我生）</td>
+</tr>
+<tr>
+<td style="text-align: center;">土</td>
+<td style="text-align: center;">辰戌丑未</td>
+<td style="text-align: center;"><strong>妻财</strong>（我克）</td>
+</tr>
+<tr>
+<td style="text-align: center;">金</td>
+<td style="text-align: center;">申→酉</td>
+<td style="text-align: center;"><strong>官鬼</strong>（克我）</td>
+</tr>
+<tr>
+<td style="text-align: center;">水</td>
+<td style="text-align: center;">亥→子</td>
+<td style="text-align: center;"><strong>父母</strong>（生我）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="巽宫木同震宫">巽宫（木）— 同震宫</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">五行</th>
+<th style="text-align: center;">地支</th>
+<th style="text-align: center;">六亲</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">木</td>
+<td style="text-align: center;">寅→卯</td>
+<td style="text-align: center;"><strong>兄弟</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">火</td>
+<td style="text-align: center;">巳→午</td>
+<td style="text-align: center;"><strong>子孙</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">土</td>
+<td style="text-align: center;">辰戌丑未</td>
+<td style="text-align: center;"><strong>妻财</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">金</td>
+<td style="text-align: center;">申→酉</td>
+<td style="text-align: center;"><strong>官鬼</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">水</td>
+<td style="text-align: center;">亥→子</td>
+<td style="text-align: center;"><strong>父母</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="离宫火六亲">离宫（火）六亲</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">五行</th>
+<th style="text-align: center;">地支</th>
+<th style="text-align: center;">六亲</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">火</td>
+<td style="text-align: center;">巳→午</td>
+<td style="text-align: center;"><strong>兄弟</strong>（同我）</td>
+</tr>
+<tr>
+<td style="text-align: center;">土</td>
+<td style="text-align: center;">辰戌丑未</td>
+<td style="text-align: center;"><strong>子孙</strong>（我生）</td>
+</tr>
+<tr>
+<td style="text-align: center;">金</td>
+<td style="text-align: center;">申→酉</td>
+<td style="text-align: center;"><strong>妻财</strong>（我克）</td>
+</tr>
+<tr>
+<td style="text-align: center;">水</td>
+<td style="text-align: center;">亥→子</td>
+<td style="text-align: center;"><strong>官鬼</strong>（克我）</td>
+</tr>
+<tr>
+<td style="text-align: center;">木</td>
+<td style="text-align: center;">寅→卯</td>
+<td style="text-align: center;"><strong>父母</strong>（生我）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="坤宫土同艮宫">坤宫（土）— 同艮宫</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">五行</th>
+<th style="text-align: center;">地支</th>
+<th style="text-align: center;">六亲</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">土</td>
+<td style="text-align: center;">辰戌丑未</td>
+<td style="text-align: center;"><strong>兄弟</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">金</td>
+<td style="text-align: center;">申→酉</td>
+<td style="text-align: center;"><strong>子孙</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">水</td>
+<td style="text-align: center;">亥→子</td>
+<td style="text-align: center;"><strong>妻财</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">木</td>
+<td style="text-align: center;">寅→卯</td>
+<td style="text-align: center;"><strong>官鬼</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">火</td>
+<td style="text-align: center;">巳→午</td>
+<td style="text-align: center;"><strong>父母</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="兑宫金同乾宫">兑宫（金）— 同乾宫</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">五行</th>
+<th style="text-align: center;">地支</th>
+<th style="text-align: center;">六亲</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">金</td>
+<td style="text-align: center;">申→酉</td>
+<td style="text-align: center;"><strong>兄弟</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">水</td>
+<td style="text-align: center;">亥→子</td>
+<td style="text-align: center;"><strong>子孙</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">木</td>
+<td style="text-align: center;">寅→卯</td>
+<td style="text-align: center;"><strong>妻财</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">火</td>
+<td style="text-align: center;">巳→午</td>
+<td style="text-align: center;"><strong>官鬼</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">土</td>
+<td style="text-align: center;">辰戌丑未</td>
+<td style="text-align: center;"><strong>父母</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>三个规律记住就不用背八张表</strong>：
+1. <strong>兄弟</strong> = 宫五行（同我为兄弟）
+2. <strong>子孙</strong> = 我生之五行（此生彼）
+3. <strong>妻财</strong> = 我克之五行（我制彼）
+4. <strong>官鬼</strong> = 克我之五行（彼制我）
+5. <strong>父母</strong> = 生我之五行（彼生我）</p>
+</blockquote>
+<p>翻译成人话就是：<strong>记住自己是什么五行，顺藤摸瓜推出其余四个。</strong></p>
+<p>比如坎宫水 → 生水的是金（父母）→ 水生的是木（子孙）→ 克水的是土（官鬼）→ 水克的是火（妻财）→ 同水的是水（兄弟）。</p>
+<h3 id="完整示例水雷屯六亲">完整示例：䷂ 水雷屯 + 六亲</h3>
+<div class="codehilite"><pre><span></span><code>坎宫水 → 六亲归属：
+
+金 = 父母（生我水生）
+水 = 兄弟（同我水）
+木 = 子孙（我生木）
+火 = 妻财（我克火）
+土 = 官鬼（克我土）
+</code></pre></div>
+
+<p>代入Day01的完整装卦：</p>
+<div class="codehilite"><pre><span></span><code>䷂ 水雷屯（坎宫二世卦）    世在二爻，应在五爻
+
+戊子 上六  --  (水) → 兄弟
+戊戌 九五  —   (土) → 官鬼  ☜ 应爻
+戊申 六四  --  (金) → 父母
+戊午 六三  --  (火) → 妻财
+戊辰 六二  --  (土) → 官鬼  ☜ 世爻
+戊寅 初九  —   (木) → 子孙
+</code></pre></div>
+
+<p><strong>断卦入门</strong>：
+- 世爻（自己）在二爻，临<strong>官鬼</strong>（土）→ 你现在压力大，处在"被管"的状态
+- 应爻（事情）在五爻，也是<strong>官鬼</strong> → 事情本身也是一股压力
+- 问事业的话：官鬼旺相 → 事业有转机；官鬼休囚 → 麻烦缠身
+- 问财运的话：妻财在六三（火）→ 火临月建则财旺</p>
+<p><strong>别急，具体的断法Day03讲。今天先把六亲体系练熟。</strong></p>
+<hr />
+<h2 id="三用神元神忌神仇神">三、用神、元神、忌神、仇神</h2>
+<p>六亲是"身份"，用神是"目标"。<strong>断卦的第一步：找到用神。</strong></p>
+<h3 id="用神你要问的目标">用神（你要问的目标）</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">问事</th>
+<th style="text-align: left;">取用神</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">问财运、投资、生意</td>
+<td style="text-align: left;">妻财</td>
+</tr>
+<tr>
+<td style="text-align: left;">问事业、升职、官司、婚姻（女）</td>
+<td style="text-align: left;">官鬼</td>
+</tr>
+<tr>
+<td style="text-align: left;">问婚姻（男）</td>
+<td style="text-align: left;">妻财</td>
+</tr>
+<tr>
+<td style="text-align: left;">问父母、文书、房产、考试</td>
+<td style="text-align: left;">父母</td>
+</tr>
+<tr>
+<td style="text-align: left;">问兄弟、朋友、合作、竞争</td>
+<td style="text-align: left;">兄弟</td>
+</tr>
+<tr>
+<td style="text-align: left;">问子女、投资（从子孙角度）、快乐</td>
+<td style="text-align: left;">子孙</td>
+</tr>
+<tr>
+<td style="text-align: left;">问自己吉凶</td>
+<td style="text-align: left;">世爻</td>
+</tr>
+<tr>
+<td style="text-align: left;">问对方/事情状态</td>
+<td style="text-align: left;">应爻</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>注</strong>：问"涨工资"→用神妻财（看钱）；问"提不提拔"→用神官鬼（看事业）；问"能不能考过"→用神父母（看文书学业）；问"投资项目赔赚"→用神也是妻财，但兼看子孙（生财）或官鬼（破财）。</p>
+</blockquote>
+<h3 id="元神生用神的爻">元神（生用神的爻）</h3>
+<p><strong>元神 = 父母（生我者），但是生的是"用神"而非"我"</strong></p>
+<p>准确定义：<strong>生用神的那一爻</strong>。具体关系：</p>
+<ul>
+<li>如果用神是妻财（火），那生火的是木 → 这个木爻就是元神</li>
+<li>如果用神是官鬼（水），那生水的是金 → 这个金爻就是元神</li>
+</ul>
+<p><strong>元神旺相</strong> → 用神有靠山，事情顺利。
+<strong>元神空亡</strong> → 用神无根，事情虚浮。</p>
+<h3 id="忌神克用神的爻">忌神（克用神的爻）</h3>
+<p><strong>忌神 = 克用神的那一爻</strong></p>
+<ul>
+<li>用神是妻财（火），克火的是水 → 水爻就是忌神</li>
+<li>用神是官鬼（水），克水的是土 → 土爻就是忌神</li>
+</ul>
+<p><strong>忌神旺动</strong> → 用神受伤，事情受阻。</p>
+<h3 id="仇神生忌神的爻">仇神（生忌神的爻）</h3>
+<p><strong>仇神 = 生忌神的那一爻</strong></p>
+<ul>
+<li>如果用神妻财（火），忌神是水 → 生水的是金 → 金爻就是仇神</li>
+<li>如果用神官鬼（水），忌神是土 → 生土的是火 → 火爻就是仇神</li>
+</ul>
+<p><strong>仇神旺</strong> → 忌神有根，更加凶险。</p>
+<h3 id="四者关系图">四者关系图</h3>
+<div class="codehilite"><pre><span></span><code>         仇神             元神
+          │                │
+          ▼                ▼
+  仇神生忌神 ←  ╋  → 元神生用神
+                  │
+                  ▼
+               用 神
+                  │
+              我克=妻财
+              生我=父母
+              克我=官鬼
+              同我=兄弟
+              我生=子孙
+</code></pre></div>
+
+<h3 id="实战口诀">实战口诀</h3>
+<div class="codehilite"><pre><span></span><code>用神为主看吉凶，元神生用喜相逢；
+忌神克用多阻滞，仇神助忌祸不轻；
+世应定我与他事，日月建上定旺衰。
+</code></pre></div>
+
+<hr />
+<h2 id="四飞伏">四、飞伏</h2>
+<p><strong>飞神</strong> = 当前爻位的六亲（看得见的）
+<strong>伏神</strong> = 因该爻不是本宫之爻而"藏起来"的六亲（看不见的）</p>
+<h3 id="什么时候有伏神">什么时候有伏神？</h3>
+<p>六十四卦中，只有八纯卦的六个爻<strong>全部</strong>是本宫之爻。其余卦中，有些爻不属于本宫五行→该爻位上本应存在的六亲就成了伏神。</p>
+<p>实际遇到的最常见情况：<strong>找出卦中缺少用神</strong>时。</p>
+<p>比如：问财运（用神=妻财），但整个卦翻遍找不到妻财爻 → 说明用神伏藏，伏在本宫对应的位置上。</p>
+<h3 id="找伏神的方法">找伏神的方法</h3>
+<ol>
+<li>找出本宫（纯卦）的六个爻的六亲</li>
+<li>看你要找的六亲在<strong>本宫纯卦的哪个爻位</strong></li>
+<li>这个爻位在<strong>当前卦</strong>对应的爻上，用神就是飞神还是伏神？</li>
+</ol>
+<p>看一个例子：</p>
+<div class="codehilite"><pre><span></span><code>䷂ 水雷屯（坎宫）
+┌─────────┬──────────┐
+│ 本卦爻位 │ 本宫坎卦䷜  │
+├─────────┼──────────┤
+│ 上六子水 │ 上六子水 → 兄弟 │
+│ 九五戌土 │ 九五戌土 → 官鬼 │
+│ 六四申金 │ 六四申金 → 父母 │
+│ 六三午火 │ 六三午金 → 父母（不对，这里是午火）│
+│ 六二辰土 │ 六二辰土 → 官鬼 │
+│ 初九寅木 │ 初九寅木 → 子孙 │
+└─────────┴──────────┘
+</code></pre></div>
+
+<p>等等，上面的说法不太对——坎宫本宫是䷜（坎为水），其六亲为：
+- 上六 戊子水 → 兄弟
+- 九五 戊戌土 → 官鬼
+- 六四 戊申金 → 父母
+- 六三 戊午火 → 妻财（水克火=财）
+- 六二 戊辰土 → 官鬼
+- 初六 戊寅木 → 子孙（水生木=子）</p>
+<p>而䷂水雷屯的六三爻是戊午火（妻财）——跟本宫的六三是相同的（都是午火，都是妻财）。</p>
+<p>实际上在真实操作中，<strong>飞伏主要用于当本卦的某个爻位上缺失了用神时</strong>。比如有的卦中某爻地支与本宫不同，导致该爻的六亲不同，相应的"本宫应有的六亲"就伏藏了。</p>
+<blockquote>
+<p><strong>简化处理</strong>：初学者先不用深究飞伏，知道"卦中缺用神时，去本宫找"就够了。实战中大部分情况直接看飞神就能判断。</p>
+</blockquote>
+<hr />
+<h2 id="五完整示例用六亲断一件事">五、完整示例：用六亲断一件事</h2>
+<h3 id="案例问财运用神妻财">案例：问财运 → 用神 = 妻财</h3>
+<div class="codehilite"><pre><span></span><code>䷂ 水雷屯（坎宫二世卦）
+
+戊子   上六  --  (水) → 兄弟
+戊戌   九五  —   (土) → 官鬼  ☜ 应爻  ✦ 忌神（土克火）
+戊申   六四  --  (金) → 父母  ✦ 仇神（金生水→水生木←不对）
+                                           ✦ 仇神土克火，金生水→水克火，不对。
+                                           ✦ 重新算：忌神克用神，仇神生忌神。
+                                           ✦ 用神妻财(火)，忌神=克火=水，仇神=生水=金
+                                           ✦ 所以这里的金(父母)=仇神
+                                           ✦ 但注意，实际要看这个爻是否动了
+戊午   六三  --  (火) → 妻财  ✦ 用神（你要的结果）
+戊辰   六二  --  (土) → 官鬼  ☜ 世爻  ✦ 问财运世临官鬼=破财信号
+戊寅   初九  —   (木) → 子孙  ✦ 元神（木生火）
+</code></pre></div>
+
+<p><strong>分析</strong>：
+- 用神在六三（妻财火）→ 有财
+- 元神（初九木）→ 木生火旺，财源好
+- 世爻（六二官鬼）→ 但你目前"手紧"，鬼压身，缺钱状态
+- 应爻（九五官鬼）→ 事情本身有压力
+- 兄弟（上六）→ 有竞争/合伙破财的可能
+- <strong>结论</strong>：有财运（用神+元神旺），但当前你自己手头紧（世临官鬼），而且有兄弟劫财的隐患。建议最近不要跟人合伙投资。</p>
+<p><strong>这不是完整断法（少了日月建、空亡等Day03内容），但光用六亲已经能看出大致走向了。</strong></p>
+<hr />
+<h2 id="六练习">六、练习</h2>
+<h3 id="练习1">练习1</h3>
+<p>接下卦䷋ 天地否（上乾☰下坤☷），乾宫三世卦。六亲如下：</p>
+<div class="codehilite"><pre><span></span><code>壬戌 — 父母 (土)
+壬申 — 兄弟 (金)
+壬午 — 官鬼 (火) ☜ 应爻
+乙卯 -- 妻财 (木) ☜ 世爻
+乙巳 -- 官鬼 (火)
+乙未 -- 父母 (土)
+</code></pre></div>
+
+<p>这位女士问<strong>婚姻感情</strong>（用神=官鬼，代表丈夫）。</p>
+<ul>
+<li>用神在哪里？旺不旺？</li>
+<li>世爻（自己）是什么六亲？</li>
+<li>元神（生用神）是什么？找到了吗？</li>
+<li>怎么断？</li>
+</ul>
+<details>
+<summary>👆 推完再看</summary>
+
+**用神（官鬼）**：官鬼爻出现了两处 → 应爻（壬午）和乙巳。
+
+重点看**应爻壬午**（对应事/对方）——应爻就是官鬼，说明对方就是你老公/男友本人在卦中显现。
+
+**元神（生官鬼）**：官鬼属火，生火的是木。木在哪里？→ **乙卯（妻财）** 是木，也就是**世爻自身**！
+
+**元神=你本人（世爻）生官鬼** → 你在为这段感情/婚姻付出，你在滋养这段关系。
+
+**世爻乙卯妻财（你自己）**：妻财临世，一般说明你比较务实/看重物质面。
+
+**怎么断**：官鬼应爻旺相（火爻），自身又能生官鬼 → 婚姻有希望，但你需要持续付出。注意官鬼两处（应爻和中爻）→ 小心感情上有别的干扰因素（另一个"官鬼"）。
+
+这已经能读出很多信息了，对吧？
+</details>
+
+<h3 id="练习2">练习2</h3>
+<p>问投资（用神=妻财）。列出䷀ 乾为天的完整六亲，然后回答：
+- 用神在哪一爻？
+- 元神在哪一爻？
+- 如果妻财爻被月建所克（月建=亥水），是好是坏？</p>
+<details>
+<summary>👆 先想再看</summary>
+
+䷀ 乾为天（乾宫纯卦）——六爻全部是本宫：
+
+
+<div class="codehilite"><pre><span></span><code>壬戌 — 父母 (土) ☜ 应爻
+壬申 — 兄弟 (金)
+壬午 — 官鬼 (火)  ☜ 注意乾纯卦世在六爻
+甲辰 — 父母 (土)
+甲寅 — 妻财 (木)
+甲子 — 子孙 (水) ☜ 世爻
+</code></pre></div>
+
+
+
+**用神妻财**在**甲寅（二爻）**。
+
+**元神（生妻财）** = 水（生木）→ 甲子（子孙），在一爻。
+
+**月建亥水（金生水）** → 亥水是元神位置（子孙），水旺生木 = **用神更旺** → 反而对财运有利！
+
+等等——月建亥水克火，妻财属木，水不生木吗？不对，水生木，所以亥水旺反而生妻财。
+
+**结论**：月建亥水不生火，但水旺生妻财木 → 财运反而提升。
+
+这里要注意：月建的作用不能只看"克"，要看生克关系具体落在哪个五行上。
+</details>
+
+<hr />
+<h2 id="七今日掌握检查">七、今日掌握检查</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">概念</th>
+<th style="text-align: center;">掌握程度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">六亲的五行定义（生我/我生/克我/我克/同我）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">八个宫对应六亲表</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">用神的选取规则</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">元神=生用神</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">忌神=克用神</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">仇神=生忌神</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">飞伏的基本概念</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">能独立标出一卦的六亲</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>提醒</strong>：六亲体系是整个六爻的"操作系统"。今天你可能比较吃力，但一定要<strong>动手练两个卦</strong>——找一卦出来自己装六亲、找用神。不练的话明天断法根本用不上。</p>
+</blockquote>
+<hr />
+<p><em>明天：六爻纳甲 · Day 03 — 断法实战：日月建、空亡、六冲六合、完整断卦流程</em></p>
+        </div>
+
+        <div class="page-nav-wrap">
+          <a href="liuyao-day01-zhuang-gua-fa.html" class="page-nav prev">‹ Day 1</a>
+          <a href="liuyao-day03-divination-practice.html" class="page-nav next">八、六爻纳甲 · 三天的知识地图 ›</a>
+        </div>
+      </article>
+    </div>
+  </main>
+</div>
+
+<button id="backToTop" class="back-to-top">↑</button>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

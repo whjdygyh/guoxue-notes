@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 4 · 国学天师 · 国学天师</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="app-wrapper">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h1>国学天师</h1>
+      <div class="subtitle">自 学 笔 记</div>
+    </div>
+    <div class="sidebar-search">
+      <input type="text" id="searchInput" placeholder="搜索笔记…">
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+☰ 周易
+</div>
+<ul class="nav-items ">
+<li class="nav-item"><a href="../yijing/day01-yinyang-bagua.html">第一天 · 阴阳爻与八卦本象 <span class="tag tag-yijing">Day1</span></a></li>
+<li class="nav-item"><a href="../yijing/day02-bagua-symbols-yaowei.html">第二天 · 八卦基本象征 + 爻位关系 <span class="tag tag-yijing">Day2</span></a></li>
+<li class="nav-item"><a href="../yijing/day03-64gua-circle-chart.html">第三天 · 六十四卦方圆图 + 六十四卦排列逻辑 <span class="tag tag-yijing">Day3</span></a></li>
+<li class="nav-item"><a href="../yijing/day04-qian-kun.html">第四天 · 六十四卦精读（一）：乾坤两卦 <span class="tag tag-yijing">Day4</span></a></li>
+<li class="nav-item"><a href="../yijing/day05-tun-meng-xu-song-shi-bi.html">第五天 · 六十四卦精读（二）：屯蒙需讼师比 <span class="tag tag-yijing">Day5</span></a></li>
+<li class="nav-item"><a href="../yijing/day06-xiaochu-lv-tai-pi-tongren-dayou.html">第六天 · 六十四卦精读（三）：小畜履泰否同人大有 <span class="tag tag-yijing">Day6</span></a></li>
+<li class="nav-item"><a href="../yijing/day07-qian-yu-sui-gu-lin-guan.html">第七天 · 六十四卦精读（四）：谦豫随蛊临观 <span class="tag tag-yijing">Day7</span></a></li>
+<li class="nav-item"><a href="../yijing/day08-shike-bi-bo-fu-wuwang-dachu.html">第八天 · 六十四卦精读（五）：噬嗑贲剥复无妄大畜 <span class="tag tag-yijing">Day8</span></a></li>
+<li class="nav-item"><a href="../yijing/day09-yi-daguo-kan-li-xian-heng.html">第九天 · 六十四卦精读（六）：颐大过坎离咸恒 <span class="tag tag-yijing">Day9</span></a></li>
+<li class="nav-item"><a href="../yijing/day10-jin-mingyi-jiaren-kui-jian-jie.html">第十天 · 六十四卦精读（七）：晋明夷家人睽蹇解 <span class="tag tag-yijing">Day10</span></a></li>
+<li class="nav-item"><a href="../yijing/day11-sun-yi-guai-gou-cui-sheng.html">第十一天 · 六十四卦精读（八）：损益夬姤萃升 <span class="tag tag-yijing">Day11</span></a></li>
+<li class="nav-item"><a href="../yijing/day12-kun-jing-ge-ding-zhen-gen.html">第十二天 · 六十四卦精读（九）：困井革鼎震艮 <span class="tag tag-yijing">Day12</span></a></li>
+<li class="nav-item"><a href="../yijing/day13-jian-guimei-feng-lv-xun-dui.html">第十三天 · 六十四卦精读（十）：渐归妹丰旅巽兑 <span class="tag tag-yijing">Day13</span></a></li>
+<li class="nav-item"><a href="../yijing/day14-huan-jie-zhongfu-xiaoguo-jiji-weiji.html">第十四天 · 六十四卦精读（终）：涣节中孚小过既济未济 <span class="tag tag-yijing">Day14</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+📜 系辞传
+</div>
+<ul class="nav-items ">
+<li class="nav-item"><a href="../xici/xici-01-upload-1-6.html">二、第一章 · 乾坤定位 · 天地之始 <span class="tag tag-xici">章1</span></a></li>
+<li class="nav-item"><a href="../xici/xici-02-upload-7-12.html">三、第九章 · 天数地数 <span class="tag tag-xici">章2</span></a></li>
+<li class="nav-item"><a href="../xici/xici-03-download-full.html">三、第二章 · 天下之动，贞夫一者也 <span class="tag tag-xici">章3</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🌬 五运六气
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day01-wuyun-foundation.html">Day 1 · 五运基础：天干化运、大运主运客运 <span class="tag tag-wuyun">Day1</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day02-liuqi-foundation.html">Day 2 · 六气基础：地支化气、司天在泉、主气客气 <span class="tag tag-wuyun">Day2</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day03-kezhu-jialin-yunqi.html">Day 3 · 客主加临与运气相合 <span class="tag tag-wuyun">Day3</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day04-shengfu-yufa-tizhi.html">Day 4 · 胜复郁发、体质推断、综合实战 <span class="tag tag-wuyun">Day4</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+⚔ 奇门地基
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../qimen/qimen-day01-foundation.html">第一天 · 奇门地基：五行天干地支九宫 <span class="tag tag-qimen">Day1</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day02-nine-stars-eight-doors-gods.html">第二天 · 九星八门八神详解 <span class="tag tag-qimen">Day2</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day03-pan-calculation.html">第三天 · 排盘实操：阴阳遁与节气定局 <span class="tag tag-qimen">Day3</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day04-duanju-intro.html">第四天 · 断局入门：用神分析与旺衰判断 <span class="tag tag-qimen">Day4</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day05-patterns-and-omens.html">第五天 · 格局全解：吉格凶格与克应 <span class="tag tag-qimen">Day5</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🎯 奇门实战
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../qimen-practice/qimen-practice-day01.html">第12周·日常断局 Day 01 — 2026年5月10日 <span class="tag tag-qimen">Day0</span></a></li>
+<li class="nav-item"><a href="../qimen-practice/qimen-practice-day02.html">Day 0 <span class="tag tag-qimen">Day0</span></a></li>
+<li class="nav-item"><a href="../qimen-practice/qimen-practice-day03.html">Day 0 <span class="tag tag-qimen">Day0</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🪙 起卦实战
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../practice/practice-day01-coins-casting.html">九、今天学到了什么 <span class="tag tag-practice">Day1</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day02-interpretation-method.html">九、今天学到了什么 <span class="tag tag-practice">Day2</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day03-tiyong-shengke.html">八、今天学到了什么 <span class="tag tag-practice">Day3</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day04-plum-blossom-numbers.html">八、今天学到了什么 <span class="tag tag-practice">Day4</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day05-comprehensive-combat.html">五、今天学到了什么 <span class="tag tag-practice">Day5</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🔮 六爻纳甲
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../liuyao/liuyao-day01-zhuang-gua-fa.html">Day 1 <span class="tag tag-liuyao">Day1</span></a></li>
+<li class="nav-item"><a href="../liuyao/liuyao-day02-six-relations.html">Day 2 <span class="tag tag-liuyao">Day2</span></a></li>
+<li class="nav-item"><a href="../liuyao/liuyao-day03-divination-practice.html">八、六爻纳甲 · 三天的知识地图 <span class="tag tag-liuyao">Day3</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🌸 梅花进阶
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../meihua/meihua-day04-wanwu-leixiang.html">Day 4 <span class="tag tag-meihua">Day4</span></a></li>
+<li class="nav-item"><a href="../meihua/meihua-day05-waiying-quxiang.html">Day 5 <span class="tag tag-meihua">Day5</span></a></li>
+<li class="nav-item"><a href="../meihua/meihua-day06-comprehensive-combat.html">Day 6 <span class="tag tag-meihua">Day6</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+⚡ 联合实战
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../united/united-day07-yijing-qimen-combined.html">Day 7 <span class="tag tag-united">Day7</span></a></li>
+<li class="nav-item"><a href="../united/united-day08-real-cases.html">Day 8 <span class="tag tag-united">Day8</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title"><span class="arrow">▼</span>📋 实战案例</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../cases/20wan-debt.html">💰 20万债权 断盘日记 <span class="tag tag-case">案例</span></a></li>
+</ul></div>
+    </nav>
+  </aside>
+
+  <main class="main-content">
+    <div class="topbar">
+      <button class="menu-toggle" id="menuToggle">☰</button>
+      <div class="breadcrumb">
+        <a href="../index.html">首页</a>
+      </div>
+      <div class="page-title">Day 4 · 国学天师</div>
+    </div>
+
+    <div class="page-content">
+      <article class="article" id="main-article">
+        <div class="article-body" id="article-body">
+          <nav class="toc"><div class="toc-title">目录</div><ul><li class="toc-h2"><a href="#一八卦的万物对应表必背">一、八卦的万物对应表（必背）</a></li><li class="toc-h3"><a href="#乾卦天健刚">  ㈠ 乾卦 ☰（天·健·刚）</a></li><li class="toc-h3"><a href="#兑卦泽悦缺">  ㈡ 兑卦 ☱（泽·悦·缺）</a></li><li class="toc-h3"><a href="#离卦火明电">  ㈢ 离卦 ☲（火·明·电）</a></li><li class="toc-h3"><a href="#震卦雷动怒">  ㈣ 震卦 ☳（雷·动·怒）</a></li><li class="toc-h3"><a href="#巽卦风入顺">  ㈤ 巽卦 ☴（风·入·顺）</a></li><li class="toc-h3"><a href="#坎卦水险陷">  ㈥ 坎卦 ☵（水·险·陷）</a></li><li class="toc-h3"><a href="#艮卦山止成">  ㈦ 艮卦 ☶（山·止·成）</a></li><li class="toc-h3"><a href="#坤卦地顺容">  ㈧ 坤卦 ☷（地·顺·容）</a></li><li class="toc-h2"><a href="#二类象在实战中的用法">二、类象在实战中的用法</a></li><li class="toc-h3"><a href="#取象原则">  取象原则</a></li><li class="toc-h3"><a href="#取象选择规则">  取象选择规则</a></li><li class="toc-h2"><a href="#三梅花占卜实战全取象法">三、梅花占卜实战：全取象法</a></li><li class="toc-h3"><a href="#案例一路上走看见一只猫追老鼠">  案例一：路上走，看见一只猫追老鼠</a></li><li class="toc-h3"><a href="#案例二下雨天见闪电击中老树">  案例二：下雨天，见闪电击中老树</a></li><li class="toc-h3"><a href="#案例三早上起床你家楼下的大门锁卡住了">  案例三：早上起床，你家楼下的大门锁卡住了</a></li><li class="toc-h2"><a href="#四取象体用联合断法">四、取象+体用 联合断法</a></li><li class="toc-h3"><a href="#完整示例看到一只红鸟从西边飞过">  完整示例：看到一只红鸟从西边飞过</a></li><li class="toc-h2"><a href="#五练习">五、练习</a></li><li class="toc-h3"><a href="#练习1">  练习1</a></li><li class="toc-h3"><a href="#练习2">  练习2</a></li><li class="toc-h2"><a href="#六今日掌握检查">六、今日掌握检查</a></li></ul></nav><h1>梅花进阶 · Day 04 · 万物类象 · 八卦的无穷世界</h1>
+<hr />
+<p>起卦实战Day04我们已经学过<strong>用数字起梅花卦</strong>。但梅花易数的真正灵魂不是起卦方法，而是<strong>类象</strong>——随便看到一物、一色、一声、一形，立刻知道它对应什么卦，从而断吉凶。</p>
+<p>邵雍在《梅花易数》中最经典的一例：看到<strong>双雀争枝坠地</strong>→雀=离卦→离属火→有火性→第二天果然有邻居女儿被火烧伤。</p>
+<p>不是猜的，是他看到雀（离象）坠地（坤象），火入土→应验在女孩（离为中女）身上。</p>
+<p>这就是万物类象的力量。今天我们就系统地吃透它。</p>
+<hr />
+<h2 id="一八卦的万物对应表必背">一、八卦的万物对应表（必背）</h2>
+<h3 id="乾卦天健刚">㈠ 乾卦 ☰（天·健·刚）</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">类别</th>
+<th style="text-align: left;">对应事物</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>天象</strong></td>
+<td style="text-align: left;">天、晴、冰、寒</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>人伦</strong></td>
+<td style="text-align: left;">父亲、君王、领导、德高望重者</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>身体</strong></td>
+<td style="text-align: left;">头、脑、骨、肺、右腿</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>性情</strong></td>
+<td style="text-align: left;">刚健、果断、威严、正直、傲慢</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>方位</strong></td>
+<td style="text-align: left;">西北</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>季节</strong></td>
+<td style="text-align: left;">秋冬之交（立冬前）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>五行</strong></td>
+<td style="text-align: left;">金（阳金）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>颜色</strong></td>
+<td style="text-align: left;">大赤、玄色（深黑）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>动物</strong></td>
+<td style="text-align: left;">马（良马、老马）、天鹅、狮、象</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>植物</strong></td>
+<td style="text-align: left;">乔木、松柏</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>静物</strong></td>
+<td style="text-align: left;">金玉、珠宝、钟表、镜子、圆物、帽子、衣架</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>建筑</strong></td>
+<td style="text-align: left;">京城、宫殿、政府大楼、大厅</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>疾病</strong></td>
+<td style="text-align: left;">头疾、肺病、筋骨痛</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>数字</strong></td>
+<td style="text-align: left;">1（先天卦数）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>五味</strong></td>
+<td style="text-align: left;">辛、辣</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>场所</strong></td>
+<td style="text-align: left;">广场、大路、高处</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>记忆锚点</strong>：乾=天→最高、最刚、最贵重。看到圆的东西、金色的东西、领导人物→取乾卦。</p>
+</blockquote>
+<h3 id="兑卦泽悦缺">㈡ 兑卦 ☱（泽·悦·缺）</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">类别</th>
+<th style="text-align: left;">对应事物</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>天象</strong></td>
+<td style="text-align: left;">雨、露、雾</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>人伦</strong></td>
+<td style="text-align: left;">少女、妾、歌妓、解说员、翻译</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>身体</strong></td>
+<td style="text-align: left;">口、舌、牙齿、咽喉</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>性情</strong></td>
+<td style="text-align: left;">喜悦、爱说、好讲、易怒、缺憾</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>方位</strong></td>
+<td style="text-align: left;">西</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>季节</strong></td>
+<td style="text-align: left;">秋（立秋~霜降）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>五行</strong></td>
+<td style="text-align: left;">金（阴金）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>颜色</strong></td>
+<td style="text-align: left;">白色</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>动物</strong></td>
+<td style="text-align: left;">羊、鸡、鸟</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>植物</strong></td>
+<td style="text-align: left;">果树（多果）、有刺植物</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>静物</strong></td>
+<td style="text-align: left;">有缺口的器物、乐器、刀剑、杯盘</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>建筑</strong></td>
+<td style="text-align: left;">西向房屋、幼儿园、戏院</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>疾病</strong></td>
+<td style="text-align: left;">口齿咽喉病、哮喘</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>数字</strong></td>
+<td style="text-align: left;">2</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>五味</strong></td>
+<td style="text-align: left;">辛</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>场所</strong></td>
+<td style="text-align: left;">沟壑、池塘、废墟</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>记忆锚点</strong>：兑=泽→缺口、开口、喜悦。看到缺口的、说话的、白色的、金属乐器→取兑卦。</p>
+</blockquote>
+<h3 id="离卦火明电">㈢ 离卦 ☲（火·明·电）</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">类别</th>
+<th style="text-align: left;">对应事物</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>天象</strong></td>
+<td style="text-align: left;">日、电、闪电、虹霓</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>人伦</strong></td>
+<td style="text-align: left;">中女、文人、军人、画家、眼睛好的人</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>身体</strong></td>
+<td style="text-align: left;">眼、心、心包</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>性情</strong></td>
+<td style="text-align: left;">热情、聪明、美丽、急躁</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>方位</strong></td>
+<td style="text-align: left;">南</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>季节</strong></td>
+<td style="text-align: left;">夏（立夏~小暑）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>五行</strong></td>
+<td style="text-align: left;">火</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>颜色</strong></td>
+<td style="text-align: left;">红、赤、紫</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>动物</strong></td>
+<td style="text-align: left;">雉（野鸡）、孔雀、龟、蟹、蚌</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>植物</strong></td>
+<td style="text-align: left;">有花植物、红叶</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>静物</strong></td>
+<td style="text-align: left;">火器、灯具、文书、合同、电视、电脑</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>建筑</strong></td>
+<td style="text-align: left;">南向房屋、剧院、画廊、学校</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>疾病</strong></td>
+<td style="text-align: left;">眼病、心脏病、烫伤</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>数字</strong></td>
+<td style="text-align: left;">3</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>五味</strong></td>
+<td style="text-align: left;">苦</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>场所</strong></td>
+<td style="text-align: left;">窑灶、向阳地、火山</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>记忆锚点</strong>：离=火→亮、红、热、附丽。看到火光、太阳、红色、亮的东西、电光→取离卦。</p>
+</blockquote>
+<h3 id="震卦雷动怒">㈣ 震卦 ☳（雷·动·怒）</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">类别</th>
+<th style="text-align: left;">对应事物</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>天象</strong></td>
+<td style="text-align: left;">雷、地震、火山爆发</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>人伦</strong></td>
+<td style="text-align: left;">长男、长子、王侯、掌权者</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>身体</strong></td>
+<td style="text-align: left;">足、肝、发</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>性情</strong></td>
+<td style="text-align: left;">躁动、勇敢、易怒、好动</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>方位</strong></td>
+<td style="text-align: left;">东</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>季节</strong></td>
+<td style="text-align: left;">春（立春~谷雨）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>五行</strong></td>
+<td style="text-align: left;">木（阳木）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>颜色</strong></td>
+<td style="text-align: left;">青绿</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>动物</strong></td>
+<td style="text-align: left;">龙、蛇、马（善鸣）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>植物</strong></td>
+<td style="text-align: left;">竹、芦苇、高大树木</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>静物</strong></td>
+<td style="text-align: left;">乐器（鼓）、鞭炮、车辆、飞机</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>建筑</strong></td>
+<td style="text-align: left;">东向房屋、闹市</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>疾病</strong></td>
+<td style="text-align: left;">足疾、肝病、惊风</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>数字</strong></td>
+<td style="text-align: left;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>五味</strong></td>
+<td style="text-align: left;">酸</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>场所</strong></td>
+<td style="text-align: left;">森林、闹市、大道</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>记忆锚点</strong>：震=雷→动、响、爆发。看到突然的声音、震动、绿色的高大东西→取震卦。</p>
+</blockquote>
+<h3 id="巽卦风入顺">㈤ 巽卦 ☴（风·入·顺）</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">类别</th>
+<th style="text-align: left;">对应事物</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>天象</strong></td>
+<td style="text-align: left;">风、云、气流</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>人伦</strong></td>
+<td style="text-align: left;">长女、长妇、寡妇、僧尼</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>身体</strong></td>
+<td style="text-align: left;">股（大腿）、胆、气管</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>性情</strong></td>
+<td style="text-align: left;">柔顺、谦逊、细心、犹豫</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>方位</strong></td>
+<td style="text-align: left;">东南</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>季节</strong></td>
+<td style="text-align: left;">春夏之交（谷雨~芒种）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>五行</strong></td>
+<td style="text-align: left;">木（阴木）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>颜色</strong></td>
+<td style="text-align: left;">碧绿</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>动物</strong></td>
+<td style="text-align: left;">鸡、蛇、蜈蚣、带翅膀昆虫</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>植物</strong></td>
+<td style="text-align: left;">藤蔓、垂柳、细长植物</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>静物</strong></td>
+<td style="text-align: left;">绳子、扇子、木器、信件、香烟</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>建筑</strong></td>
+<td style="text-align: left;">东南向房屋、寺庙、花园</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>疾病</strong></td>
+<td style="text-align: left;">股疾、胆病、中风</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>数字</strong></td>
+<td style="text-align: left;">5</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>五味</strong></td>
+<td style="text-align: left;">酸</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>场所</strong></td>
+<td style="text-align: left;">竹园、草木茂盛处</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>记忆锚点</strong>：巽=风→入、柔、长。看到细长的、摇摆的、草木、风动的、绳子→取巽卦。</p>
+</blockquote>
+<h3 id="坎卦水险陷">㈥ 坎卦 ☵（水·险·陷）</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">类别</th>
+<th style="text-align: left;">对应事物</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>天象</strong></td>
+<td style="text-align: left;">雨、雪、冰、露</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>人伦</strong></td>
+<td style="text-align: left;">中男、中年男性、隐士、盗贼</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>身体</strong></td>
+<td style="text-align: left;">耳、肾、血、背</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>性情</strong></td>
+<td style="text-align: left;">阴险、聪明（水智）、多虑</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>方位</strong></td>
+<td style="text-align: left;">北</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>季节</strong></td>
+<td style="text-align: left;">冬（立冬~小寒）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>五行</strong></td>
+<td style="text-align: left;">水</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>颜色</strong></td>
+<td style="text-align: left;">黑、深蓝</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>动物</strong></td>
+<td style="text-align: left;">猪、鱼、鼠、水鸟</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>植物</strong></td>
+<td style="text-align: left;">水草、莲、菱</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>静物</strong></td>
+<td style="text-align: left;">水器、酒、车轮、弓轮</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>建筑</strong></td>
+<td style="text-align: left;">北向房屋、水边楼台、井</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>疾病</strong></td>
+<td style="text-align: left;">耳病、肾病、血疾</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>数字</strong></td>
+<td style="text-align: left;">6</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>五味</strong></td>
+<td style="text-align: left;">咸</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>场所</strong></td>
+<td style="text-align: left;">江河、湖海、沟渠、水井</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>记忆锚点</strong>：坎=水→险、陷、暗、流。看到水、黑、波浪、容器、流动的东西→取坎卦。</p>
+</blockquote>
+<h3 id="艮卦山止成">㈦ 艮卦 ☶（山·止·成）</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">类别</th>
+<th style="text-align: left;">对应事物</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>天象</strong></td>
+<td style="text-align: left;">云、雾、山岚</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>人伦</strong></td>
+<td style="text-align: left;">少男、童仆、守门人、隐士</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>身体</strong></td>
+<td style="text-align: left;">手、背、手指、鼻</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>性情</strong></td>
+<td style="text-align: left;">静止、稳重、固执、阻隔</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>方位</strong></td>
+<td style="text-align: left;">东北</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>季节</strong></td>
+<td style="text-align: left;">冬春之交（大寒~立春）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>五行</strong></td>
+<td style="text-align: left;">土（阳土）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>颜色</strong></td>
+<td style="text-align: left;">棕黄</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>动物</strong></td>
+<td style="text-align: left;">狗、虎、鼠、狼</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>植物</strong></td>
+<td style="text-align: left;">瓜果、根茎、山树</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>静物</strong></td>
+<td style="text-align: left;">土石、石碑、门、阶梯</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>建筑</strong></td>
+<td style="text-align: left;">东北向房屋、山间寺庙、坟</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>疾病</strong></td>
+<td style="text-align: left;">手疾、鼻病、关节</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>数字</strong></td>
+<td style="text-align: left;">7</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>五味</strong></td>
+<td style="text-align: left;">甘</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>场所</strong></td>
+<td style="text-align: left;">山、丘陵、道路尽头</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>记忆锚点</strong>：艮=山→止、稳、阻。看到山、石头、门、台阶、停止前进→取艮卦。</p>
+</blockquote>
+<h3 id="坤卦地顺容">㈧ 坤卦 ☷（地·顺·容）</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">类别</th>
+<th style="text-align: left;">对应事物</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>天象</strong></td>
+<td style="text-align: left;">阴天、云、雾</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>人伦</strong></td>
+<td style="text-align: left;">母亲、老妇、臣民、农人</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>身体</strong></td>
+<td style="text-align: left;">腹、脾、胃、肉</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>性情</strong></td>
+<td style="text-align: left;">柔顺、包容、敦厚、被动</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>方位</strong></td>
+<td style="text-align: left;">西南</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>季节</strong></td>
+<td style="text-align: left;">夏秋之交（小暑~白露）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>五行</strong></td>
+<td style="text-align: left;">土（阴土）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>颜色</strong></td>
+<td style="text-align: left;">黄、褐</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>动物</strong></td>
+<td style="text-align: left;">牛、母马、驮兽</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>植物</strong></td>
+<td style="text-align: left;">大地植物、谷物、棉麻</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>静物</strong></td>
+<td style="text-align: left;">布帛、陶器、方物、车</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>建筑</strong></td>
+<td style="text-align: left;">西南向房屋、田庄、仓库</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>疾病</strong></td>
+<td style="text-align: left;">腹疾、脾胃病、湿气</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>数字</strong></td>
+<td style="text-align: left;">8</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>五味</strong></td>
+<td style="text-align: left;">甘</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>场所</strong></td>
+<td style="text-align: left;">田野、大地、平地</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>记忆锚点</strong>：坤=地→顺、容、厚、养。看到大地、黄色、方形、布匹、母亲形象→取坤卦。</p>
+</blockquote>
+<hr />
+<h2 id="二类象在实战中的用法">二、类象在实战中的用法</h2>
+<h3 id="取象原则">取象原则</h3>
+<ol>
+<li><strong>直接取象</strong>：看到一匹马→乾卦（马为乾）</li>
+<li><strong>性质取象</strong>：看到圆的、金色的→乾卦</li>
+<li><strong>功能取象</strong>：闪闪发光的东西→离卦（光=火）</li>
+<li><strong>颜色取象</strong>：红色→离卦；黑色→坎卦；黄色→坤卦</li>
+<li><strong>声音取象</strong>：雷声→震卦；风声→巽卦</li>
+</ol>
+<h3 id="取象选择规则">取象选择规则</h3>
+<p>同一事物可能对应多个八卦，怎么选？</p>
+<p><strong>规则</strong>：看<strong>最显著的特征</strong>。</p>
+<blockquote>
+<p>比如"红色圆球"→
+- 红色→离
+- 圆形→乾
+- 选哪个？看场景。
+  - 如果是装饰品在桌上 → 乾（形胜于色）
+  - 如果是在炽热的光源下看到 → 离（光色胜于形）
+  - 如果是抛出去的东西 → 取动为震（动胜于静）</p>
+</blockquote>
+<hr />
+<h2 id="三梅花占卜实战全取象法">三、梅花占卜实战：全取象法</h2>
+<h3 id="案例一路上走看见一只猫追老鼠">案例一：路上走，看见一只猫追老鼠</h3>
+<p><strong>取象</strong>：
+- 猫追老鼠 = <strong>追逐</strong>、<strong>捕食</strong>
+- 猫 = 虎类 → 艮卦（虎属艮）
+- 老鼠 → 坎卦（鼠属坎）</p>
+<p><strong>象断</strong>：
+艮（止）+ 坎（险）→ 止险之象。艮在上、坎在下 → ䷦ 山水蹇</p>
+<p>䷦ 蹇卦 = 跛足难行，险在前。</p>
+<p><strong>结论</strong>：最近不要冒险做投资，前面有坑。</p>
+<h3 id="案例二下雨天见闪电击中老树">案例二：下雨天，见闪电击中老树</h3>
+<p><strong>取象</strong>：
+- 闪电 → 离卦（电属离）
+- 老树 → 乾卦（老木属乾，但高大树木属震）</p>
+<p>这里犹豫老树是乾还是震：
+- 震=大树，因为动+青色
+- 乾=老、刚</p>
+<p>所以离火（闪电）+ 震木（老树）= ䷔ 火雷噬嗑</p>
+<p>噬嗑 = 咬合、刑罚、障碍物。</p>
+<p><strong>结论</strong>：有阻碍，需要"咬碎"才能通过。近期要注意合同纠纷。</p>
+<h3 id="案例三早上起床你家楼下的大门锁卡住了">案例三：早上起床，你家楼下的大门锁卡住了</h3>
+<p><strong>取象</strong>：
+- 门 → 艮卦（门为止）
+- 卡住不动的门 → 艮上加艮 = ䷳ 艮为山</p>
+<p>䷳ 艮卦 = "艮其背，不获其身"，停在那里，进退两难。</p>
+<p><strong>象断</strong>：今天不宜推进大事，宜静守。</p>
+<hr />
+<h2 id="四取象体用联合断法">四、取象+体用 联合断法</h2>
+<p>万类取象不是孤立玩的，要跟体用生克结合：</p>
+<div class="codehilite"><pre><span></span><code>取象 → 得上下卦 → 本卦
+时间/数字 → 确定动爻 → 变卦
+体卦（动爻所在卦）vs 用卦（另一卦）
+体用生克 → 吉凶判断
+</code></pre></div>
+
+<h3 id="完整示例看到一只红鸟从西边飞过">完整示例：看到一只红鸟从西边飞过</h3>
+<p><strong>取象</strong>：
+- 红鸟 → 离卦（红+鸟属雉类=离）
+- 西方 → 兑卦</p>
+<p><strong>起卦</strong>：上离下兑 = ䷰ 火泽睽...不对，上离下兑 = ䷥ 火泽睽。离(3) + 兑(2) = 5 → 动爻 = 5爻</p>
+<p>䷥ 火泽睽 → 五爻动 → 变卦䷍ 火天大有</p>
+<p><strong>体用</strong>：
+- 睽卦：上离(火)下兑(金)
+- 动爻在上卦的第五爻 → <strong>体卦=离火（动方）</strong>，<strong>用卦=兑金（对方）</strong>
+- 火克金 → <strong>体克用</strong> → 我能制人，吉利</p>
+<p><strong>具体断</strong>：
+- 火泽睽 = 分歧、矛盾之象 → 最近在和某人处在对峙状态
+- 但体克用 = 你能赢
+- 变卦火天大有 = 大有收获
+- <strong>结论</strong>：当前的分歧最终你会占上风，事情会往好的方向发展。建议主动沟通（睽必须合，睽极必合），结果会是大丰收。</p>
+<hr />
+<h2 id="五练习">五、练习</h2>
+<h3 id="练习1">练习1</h3>
+<p>你去朋友家做客，他刚买了一盆<strong>红色花的仙人掌</strong>放在客厅西边。用什么卦象来断？
+- 取什么象？
+- 得什么卦？
+- 体用关系如何？
+- 怎么断？</p>
+<details>
+<summary>👆 先自己推</summary>
+
+**取象**：
+- 红花的仙人掌：红色=离，有刺=兑（有刺植物属兑）
+→ 上离下兑 = ䷥ 火泽睽
+
+- 西方：兑卦位 → 确认用兑
+
+**体用**：体=离（你看到的东西），用=兑（环境/朋友）
+火克金 = 体克用 → 你能掌控局面
+
+**断**：睽卦 = 分歧、差异。仙人掌有刺但开红花（外刚内柔）。
+你朋友这个人最近可能表面强硬（刺）但内心热情（红花），体克用说明你能和他处得来，但要注意方式方法。
+变爻没有给出，不确定。但仅就体用说：**对方看着有点扎手，但你搞得定**。
+</details>
+
+<h3 id="练习2">练习2</h3>
+<p>你晚上走路，看到<strong>一条黑狗蹲在一个圆形的石头上不动</strong>。</p>
+<p>取象、得卦、断？用你刚才学的。</p>
+<details>
+<summary>👆 推完再看</summary>
+
+**取象**：
+- 黑狗 → 坎（黑=水、狗=艮...这里颜色优先还是动物优先？）
+  这里有点纠结。狗=艮（动物类），黑=坎（颜色类）。
+  要看哪个特征更突出：狗蹲着不动 → 静止的特征最明显 → 取艮
+
+- 圆形石头 → 乾（圆形+石头，形取乾）
+
+上艮下乾 = ䷙ 山天大畜
+
+**翻译**：大畜 = 积蓄、养精蓄锐。
+- 艮止在乾健之上 → 暂时停止前进，积蓄力量
+- 大蓄积 → 准备大干一场
+
+**体用**：艮(土) + 乾(金) → 土生金 → **体生用**
+你（艮/止）生出了它（乾/健）→ 你在为某件事做积累/培养。
+
+**结论**：你现在处在"积蓄力量"的阶段，虽然看起来什么都没干（蹲着不动），但其实是在憋大招。等蓄够了（大畜），就会一飞冲天。
+</details>
+
+<hr />
+<h2 id="六今日掌握检查">六、今日掌握检查</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">概念</th>
+<th style="text-align: center;">掌握程度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">乾☰万物类象（天、父、头、西北、金）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">兑☱万物类象（泽、少女、口、西、缺）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">离☲万物类象（火、中女、眼、南、红）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">震☳万物类象（雷、长男、足、东、绿）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">巽☴万物类象（风、长女、股、东南）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">坎☵万物类象（水、中男、耳、北、黑）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">艮☶万物类象（山、少男、手、东北）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">坤☷万物类象（地、母、腹、西南、黄）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">取象四原则（直接/性质/功能/颜色）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">取象+体用生克联合断法</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>对背诵的建议</strong>：别死记硬背，太累了。记住每个卦的<strong>核心意象</strong>（乾=天、刚、头；坤=地、顺、腹…）和<strong>五行</strong>，其他的类象在实战中遇到时现查就行。这八个表是拿来当词典用的，不是背诵材料。</p>
+<p>但<strong>核心意象 + 五行 + 方位 + 人伦</strong>这四个维度值得记牢——这是类象的"骨架"。</p>
+</blockquote>
+<hr />
+<p><em>梅花进阶 · Day 05 — 外应取象：随时随地捕捉天机</em></p>
+        </div>
+
+        <div class="page-nav-wrap">
+          
+          <a href="meihua-day05-waiying-quxiang.html" class="page-nav next">Day 5 ›</a>
+        </div>
+      </article>
+    </div>
+  </main>
+</div>
+
+<button id="backToTop" class="back-to-top">↑</button>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

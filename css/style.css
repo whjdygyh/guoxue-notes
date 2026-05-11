@@ -178,6 +178,10 @@ body {
 .tag-case { background: rgba(74, 127, 181, 0.15); color: var(--accent-blue); }
 .tag-practice { background: rgba(201, 168, 76, 0.15); color: var(--accent-gold); }
 .tag-xici { background: rgba(74, 127, 181, 0.15); color: var(--accent-blue); }
+.tag-liuyao { background: rgba(74, 127, 181, 0.15); color: var(--accent-blue); }
+.tag-meihua { background: rgba(91, 140, 90, 0.15); color: var(--accent-jade); }
+.tag-united { background: rgba(194, 59, 34, 0.15); color: var(--accent-vermilion); }
+.tag-liuyun { background: rgba(201, 168, 76, 0.15); color: var(--accent-gold); }
 
 /* Main */
 .main-content {
@@ -588,6 +592,14 @@ body {
 .card-practice::before { background: var(--accent-gold); }
 .card-xici h3 { color: var(--accent-blue); }
 .card-xici::before { background: var(--accent-blue); }
+.card-liuyao h3 { color: var(--accent-blue); }
+.card-liuyao::before { background: var(--accent-blue); }
+.card-meihua h3 { color: var(--accent-jade); }
+.card-meihua::before { background: var(--accent-jade); }
+.card-united h3 { color: var(--accent-vermilion); }
+.card-united::before { background: var(--accent-vermilion); }
+.card-liuyun h3 { color: var(--accent-gold); }
+.card-liuyun::before { background: var(--accent-gold); }
 
 /* Recent entries */
 .recent-section {

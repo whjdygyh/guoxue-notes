@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 8 · 国学天师 · 国学天师</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="app-wrapper">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h1>国学天师</h1>
+      <div class="subtitle">自 学 笔 记</div>
+    </div>
+    <div class="sidebar-search">
+      <input type="text" id="searchInput" placeholder="搜索笔记…">
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+☰ 周易
+</div>
+<ul class="nav-items ">
+<li class="nav-item"><a href="../yijing/day01-yinyang-bagua.html">第一天 · 阴阳爻与八卦本象 <span class="tag tag-yijing">Day1</span></a></li>
+<li class="nav-item"><a href="../yijing/day02-bagua-symbols-yaowei.html">第二天 · 八卦基本象征 + 爻位关系 <span class="tag tag-yijing">Day2</span></a></li>
+<li class="nav-item"><a href="../yijing/day03-64gua-circle-chart.html">第三天 · 六十四卦方圆图 + 六十四卦排列逻辑 <span class="tag tag-yijing">Day3</span></a></li>
+<li class="nav-item"><a href="../yijing/day04-qian-kun.html">第四天 · 六十四卦精读（一）：乾坤两卦 <span class="tag tag-yijing">Day4</span></a></li>
+<li class="nav-item"><a href="../yijing/day05-tun-meng-xu-song-shi-bi.html">第五天 · 六十四卦精读（二）：屯蒙需讼师比 <span class="tag tag-yijing">Day5</span></a></li>
+<li class="nav-item"><a href="../yijing/day06-xiaochu-lv-tai-pi-tongren-dayou.html">第六天 · 六十四卦精读（三）：小畜履泰否同人大有 <span class="tag tag-yijing">Day6</span></a></li>
+<li class="nav-item"><a href="../yijing/day07-qian-yu-sui-gu-lin-guan.html">第七天 · 六十四卦精读（四）：谦豫随蛊临观 <span class="tag tag-yijing">Day7</span></a></li>
+<li class="nav-item"><a href="../yijing/day08-shike-bi-bo-fu-wuwang-dachu.html">第八天 · 六十四卦精读（五）：噬嗑贲剥复无妄大畜 <span class="tag tag-yijing">Day8</span></a></li>
+<li class="nav-item"><a href="../yijing/day09-yi-daguo-kan-li-xian-heng.html">第九天 · 六十四卦精读（六）：颐大过坎离咸恒 <span class="tag tag-yijing">Day9</span></a></li>
+<li class="nav-item"><a href="../yijing/day10-jin-mingyi-jiaren-kui-jian-jie.html">第十天 · 六十四卦精读（七）：晋明夷家人睽蹇解 <span class="tag tag-yijing">Day10</span></a></li>
+<li class="nav-item"><a href="../yijing/day11-sun-yi-guai-gou-cui-sheng.html">第十一天 · 六十四卦精读（八）：损益夬姤萃升 <span class="tag tag-yijing">Day11</span></a></li>
+<li class="nav-item"><a href="../yijing/day12-kun-jing-ge-ding-zhen-gen.html">第十二天 · 六十四卦精读（九）：困井革鼎震艮 <span class="tag tag-yijing">Day12</span></a></li>
+<li class="nav-item"><a href="../yijing/day13-jian-guimei-feng-lv-xun-dui.html">第十三天 · 六十四卦精读（十）：渐归妹丰旅巽兑 <span class="tag tag-yijing">Day13</span></a></li>
+<li class="nav-item"><a href="../yijing/day14-huan-jie-zhongfu-xiaoguo-jiji-weiji.html">第十四天 · 六十四卦精读（终）：涣节中孚小过既济未济 <span class="tag tag-yijing">Day14</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+📜 系辞传
+</div>
+<ul class="nav-items ">
+<li class="nav-item"><a href="../xici/xici-01-upload-1-6.html">二、第一章 · 乾坤定位 · 天地之始 <span class="tag tag-xici">章1</span></a></li>
+<li class="nav-item"><a href="../xici/xici-02-upload-7-12.html">三、第九章 · 天数地数 <span class="tag tag-xici">章2</span></a></li>
+<li class="nav-item"><a href="../xici/xici-03-download-full.html">三、第二章 · 天下之动，贞夫一者也 <span class="tag tag-xici">章3</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🌬 五运六气
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day01-wuyun-foundation.html">Day 1 · 五运基础：天干化运、大运主运客运 <span class="tag tag-wuyun">Day1</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day02-liuqi-foundation.html">Day 2 · 六气基础：地支化气、司天在泉、主气客气 <span class="tag tag-wuyun">Day2</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day03-kezhu-jialin-yunqi.html">Day 3 · 客主加临与运气相合 <span class="tag tag-wuyun">Day3</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day04-shengfu-yufa-tizhi.html">Day 4 · 胜复郁发、体质推断、综合实战 <span class="tag tag-wuyun">Day4</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+⚔ 奇门地基
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../qimen/qimen-day01-foundation.html">第一天 · 奇门地基：五行天干地支九宫 <span class="tag tag-qimen">Day1</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day02-nine-stars-eight-doors-gods.html">第二天 · 九星八门八神详解 <span class="tag tag-qimen">Day2</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day03-pan-calculation.html">第三天 · 排盘实操：阴阳遁与节气定局 <span class="tag tag-qimen">Day3</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day04-duanju-intro.html">第四天 · 断局入门：用神分析与旺衰判断 <span class="tag tag-qimen">Day4</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day05-patterns-and-omens.html">第五天 · 格局全解：吉格凶格与克应 <span class="tag tag-qimen">Day5</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🎯 奇门实战
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../qimen-practice/qimen-practice-day01.html">第12周·日常断局 Day 01 — 2026年5月10日 <span class="tag tag-qimen">Day0</span></a></li>
+<li class="nav-item"><a href="../qimen-practice/qimen-practice-day02.html">Day 0 <span class="tag tag-qimen">Day0</span></a></li>
+<li class="nav-item"><a href="../qimen-practice/qimen-practice-day03.html">Day 0 <span class="tag tag-qimen">Day0</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🪙 起卦实战
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../practice/practice-day01-coins-casting.html">九、今天学到了什么 <span class="tag tag-practice">Day1</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day02-interpretation-method.html">九、今天学到了什么 <span class="tag tag-practice">Day2</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day03-tiyong-shengke.html">八、今天学到了什么 <span class="tag tag-practice">Day3</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day04-plum-blossom-numbers.html">八、今天学到了什么 <span class="tag tag-practice">Day4</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day05-comprehensive-combat.html">五、今天学到了什么 <span class="tag tag-practice">Day5</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🔮 六爻纳甲
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../liuyao/liuyao-day01-zhuang-gua-fa.html">Day 1 <span class="tag tag-liuyao">Day1</span></a></li>
+<li class="nav-item"><a href="../liuyao/liuyao-day02-six-relations.html">Day 2 <span class="tag tag-liuyao">Day2</span></a></li>
+<li class="nav-item"><a href="../liuyao/liuyao-day03-divination-practice.html">八、六爻纳甲 · 三天的知识地图 <span class="tag tag-liuyao">Day3</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🌸 梅花进阶
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../meihua/meihua-day04-wanwu-leixiang.html">Day 4 <span class="tag tag-meihua">Day4</span></a></li>
+<li class="nav-item"><a href="../meihua/meihua-day05-waiying-quxiang.html">Day 5 <span class="tag tag-meihua">Day5</span></a></li>
+<li class="nav-item"><a href="../meihua/meihua-day06-comprehensive-combat.html">Day 6 <span class="tag tag-meihua">Day6</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+⚡ 联合实战
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../united/united-day07-yijing-qimen-combined.html">Day 7 <span class="tag tag-united">Day7</span></a></li>
+<li class="nav-item"><a href="../united/united-day08-real-cases.html">Day 8 <span class="tag tag-united">Day8</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title"><span class="arrow">▼</span>📋 实战案例</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../cases/20wan-debt.html">💰 20万债权 断盘日记 <span class="tag tag-case">案例</span></a></li>
+</ul></div>
+    </nav>
+  </aside>
+
+  <main class="main-content">
+    <div class="topbar">
+      <button class="menu-toggle" id="menuToggle">☰</button>
+      <div class="breadcrumb">
+        <a href="../index.html">首页</a>
+      </div>
+      <div class="page-title">Day 8 · 国学天师</div>
+    </div>
+
+    <div class="page-content">
+      <article class="article" id="main-article">
+        <div class="article-body" id="article-body">
+          <nav class="toc"><div class="toc-title">目录</div><ul><li class="toc-h2"><a href="#案例一六爻为主问感情复合">案例一：六爻为主 · 问感情复合</a></li><li class="toc-h3"><a href="#背景">  背景</a></li><li class="toc-h2"><a href="#案例二梅花为主问出行吉凶">案例二：梅花为主 · 问出行吉凶</a></li><li class="toc-h3"><a href="#背景">  背景</a></li><li class="toc-h3"><a href="#体用生克">  体用生克</a></li><li class="toc-h3"><a href="#类象解读">  类象解读</a></li><li class="toc-h3"><a href="#方位线索">  方位线索</a></li><li class="toc-h3"><a href="#结论">  结论</a></li><li class="toc-h2"><a href="#案例三奇门为主问投资合作">案例三：奇门为主 · 问投资合作</a></li><li class="toc-h3"><a href="#背景">  背景</a></li><li class="toc-h2"><a href="#最后的赠言">最后的赠言</a></li></ul></nav><h1>联合实战 · Day 08 · 真实案例演练 · 三大实战</h1>
+<hr />
+<p>到这里，你的知识体系已经完整了——</p>
+<div class="codehilite"><pre><span></span><code>六爻纳甲      ✅ 装卦 → 六亲 → 断法
+梅花易数      ✅ 万物类象 → 外应 → 综合断
+奇门遁甲      ✅ 地基 → 实战 → 破解
+起卦实战      ✅ 铜钱 → 梅花数 → 体用生克
+系辞传        ✅ 易理根基
+联合断法      ✅ 双体系交叉
+</code></pre></div>
+
+<p>今天是<strong>最终的实战检验</strong>——三个真实场景，每个都要用到不同的体系组合。</p>
+<blockquote>
+<p>不用一下子看完。这三个案例是给你<strong>反复练手的</strong>。看完后试着不看答案，自己先走一遍完整流程。</p>
+</blockquote>
+<hr />
+<h2 id="案例一六爻为主问感情复合">案例一：六爻为主 · 问感情复合</h2>
+<h3 id="背景">背景</h3>
+<p>2026年5月11日午时，老公帮朋友问：跟女朋友分手两个月了，想复合还有希望吗？</p>
+<p><strong>摇钱结果</strong>：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">次</th>
+<th style="text-align: left;">结果</th>
+<th style="text-align: center;">数字</th>
+<th style="text-align: center;">爻</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">两字一背</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">⚋ 少阴</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">三背</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">⚊→⚋ 老阳动</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">两背一字</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">⚊ 少阳</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">两字一背</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">⚋ 少阴</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">两字一背</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">⚋ 少阴</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">两背一字</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">⚊ 少阳</td>
+</tr>
+</tbody>
+</table>
+<p><strong>起卦</strong>：本卦 = 上巽☴下震☳ = ䷩ 风雷益
+<strong>动爻</strong>：二爻动（老阳变阴）
+<strong>变卦</strong>：二爻动 → 下震☳变兑☱ = 上巽下兑 = ䷼ 风泽中孚</p>
+<p><strong>第一步：装卦</strong></p>
+<p>䷩ 风雷益（巽宫三世卦）→ 世在三爻，应在上爻</p>
+<p>本卦：</p>
+<div class="codehilite"><pre><span></span><code>辛卯 —  上九 木 → 兄弟 ☜ 应爻
+辛巳 —  九五 火 → 子孙
+辛未 --  六四 土 → 妻财
+庚辰 --  六三 土 → 妻财 ☜ 世爻
+庚寅 --  六二 木 → 兄弟 → **动爻**老阳变阴
+庚子 —  初九 水 → 父母
+</code></pre></div>
+
+<p>变卦䷼ 风泽中孚（艮宫游魂卦）：</p>
+<div class="codehilite"><pre><span></span><code>辛卯 —  上九 木 → 兄弟
+辛巳 —  九五 火 → 子孙
+辛未 --  六四 土 → 妻财
+丁丑 --  六三 土 → 兄弟（世）
+丁卯 —  九二 木 → 官鬼
+丁巳 —  初九 火 → 父母
+</code></pre></div>
+
+<p><strong>第二步：找用神</strong></p>
+<p>问感情复合 → <strong>男占女 = 用神妻财</strong></p>
+<p>用神=妻财：
+- 六四辛未土 → 妻财（在应爻位置附近）
+- 六三庚辰土 → 妻财（世爻本身）</p>
+<p><strong>用神分析</strong>：
+- 辰土（世）：你自己的状态——月建辰土 → <strong>临月建，极旺！</strong>
+- 未土（四爻）：对方的位置——也在土位</p>
+<p><strong>日月</strong>：
+- 月建辰 → 土旺（辰月）
+- 日建甲子 → 子水（土克水，但辰月土旺，无大碍）
+- 空亡：甲子旬 → 戌亥空</p>
+<p><strong>第三步：关键爻分析</strong></p>
+<p><strong>动爻</strong>：六二兄弟（木）动 → 兄弟动 = 中间有阻碍</p>
+<p><strong>第六感</strong>：兄弟动变官鬼（变卦九二丁卯 = 官鬼木）→ 阻碍变成了"新的关系"？</p>
+<p><strong>用神旺衰</strong>：辰土临月建 → 极旺 ✅
+<strong>忌神</strong>：克妻财的是木（木克土）→ 兄弟寅卯木 = 忌神
+<strong>动态</strong>：忌神六二木动 → 但变为了变卦九二官鬼（木依然是木，但官鬼=新的男人）</p>
+<p><strong>第四步：世应关系</strong></p>
+<ul>
+<li>世爻（六三妻财）→ 你，临月建极旺</li>
+<li>应爻（上九兄弟）→ 对方，兄弟临应 → 她现在是"独身/朋友"状态</li>
+</ul>
+<p><strong>第五步：综合结论</strong></p>
+<div class="codehilite"><pre><span></span><code>✅ 用神妻财临月建 → 极旺，感情基础在
+⚠️ 动爻在二爻兄弟（忌神）→ 有人或有事从中阻隔
+⚠️ 变卦中孚 = &quot;中孚，豚鱼吉&quot; → 诚心能感天
+❌ 但注意：中孚是游魂卦 = 心不安定
+
+结论：有希望，但不会很快。
+阻力在&quot;兄弟&quot;——可能是你们之间的其他人说了什么，
+或者你哥们儿中间有人搅和。
+</code></pre></div>
+
+<p><strong>第六步：建议</strong></p>
+<ol>
+<li>中孚卦 = 需要真诚沟通 → 写一封真诚的信/消息，别通过中间人传话</li>
+<li>时间：中孚 = 半年左右（农历八月酉月 = 辰酉合 → 感情合回来）</li>
+<li>忌神木动 → 农历九月（戌月土旺克木）→ 阻力会减弱</li>
+</ol>
+<hr />
+<h2 id="案例二梅花为主问出行吉凶">案例二：梅花为主 · 问出行吉凶</h2>
+<h3 id="背景">背景</h3>
+<p>老公想去南方出差谈项目，问问此去吉凶。没说具体时间，就是现在问。</p>
+<p><strong>起卦</strong>：用当下时间——辰时（8:28，取8为兑，28为离...取数更自然：5月11日辰时）</p>
+<p>其实更简单——用他的问题字数："去南方出差" = 5个字 → 上卦5=巽
+"吉凶如何" = 4个字 → 下卦4=震
+动爻：(5+4) ÷ 6 = 1余3</p>
+<p><strong>本卦</strong>：上巽下震 = ䷩ 风雷益（咦跟案例一主卦一样）
+<strong>动爻</strong>：三爻动
+<strong>变卦</strong>：三爻动 → 六三变九三 → 下震变离 → 上巽下离 = ䷤ 风火家人</p>
+<p><strong>互卦</strong>：益卦二三四=阴阴阳→艮☶ 三四五=阳阴阴→坤☷ → 上坤下艮 = ䷎ 地山谦</p>
+<h3 id="体用生克">体用生克</h3>
+<p><strong>动爻在三爻（下卦）</strong> → <strong>体卦下震☳（木）</strong>
+<strong>用卦上巽☴（木）</strong></p>
+<p><strong>体用同木</strong> → 比和 → <strong>吉</strong></p>
+<blockquote>
+<p>体用比和 = 事情与你自己合拍，一路顺风。</p>
+</blockquote>
+<h3 id="类象解读">类象解读</h3>
+<p><strong>益卦䷩</strong>："利有攸往，利涉大川" → 宜出行，宜过河（出行大吉卦）</p>
+<p>卦辞直接说了：适合出行、适合远行（涉大川）。</p>
+<p><strong>家人卦䷤</strong>：出差结果是"跟家人一样"——合作会变成长期伙伴。</p>
+<p><strong>谦卦䷎</strong>：中间要谦虚低调，不要张扬。</p>
+<h3 id="方位线索">方位线索</h3>
+<p>南方 → 离卦（☲, 火）
+- 巽（木）+ 震（木）→ 体用比和 → 南方是"火"位 → 木生火 → <strong>你的能量流向南方</strong> → 出差能带动南方的市场/资源</p>
+<h3 id="结论">结论</h3>
+<div class="codehilite"><pre><span></span><code>✅ 益卦&quot;利涉大川&quot; = 果断出行
+✅ 体用比和 = 顺利无碍
+✅ 变卦家人 = 出差后会建立长期合作关系
+✅ 方向对——木去生南火
+⚠️ 互卦谦 = 到了别太张扬，谦虚为好
+</code></pre></div>
+
+<hr />
+<h2 id="案例三奇门为主问投资合作">案例三：奇门为主 · 问投资合作</h2>
+<h3 id="背景">背景</h3>
+<p>老公问：有个朋友拉我合伙开个餐饮店，在西北方向。2026年5月11日午时。</p>
+<p><strong>第一步：排奇门盘</strong></p>
+<p>2026年5月11日甲子日庚午时，立夏后阳4局。</p>
+<p>（排盘参考Day07的排法）</p>
+<div class="codehilite"><pre><span></span><code>关键信息提取：
+- 开门在乾6宫（西北）→ 事业方向就是西北，好兆头
+- 生门在艮8宫（东北）→ 财源不在合作方向
+- 日干戊在4宫（杜门）→ 你有杜门阻隔，自己有些犹豫
+- 时干庚在6宫（开门）→ 合作这件事本身就是&quot;开&quot;的
+</code></pre></div>
+
+<p>但等等——<strong>时干庚落开门</strong> → 事情是正向的。</p>
+<p>再看合作方：年命盘...</p>
+<p>简化处理关键信息：</p>
+<p><strong>日干（你）</strong>：甲子旬，戊落4宫 → 杜门+天辅 → 你在考虑，但杜门有疑虑</p>
+<p><strong>时干（事）</strong>：庚落6宫 → 开门+天蓬 → 事情是"开门"的（能做成），但天蓬代表投资有风险</p>
+<p><strong>合作方</strong>：六合在...三宫（震·伤门）→ 合作带伤门 → 合伙可能有内耗</p>
+<p><strong>方位</strong>：西北（乾6宫·开门）→ 方向是对的</p>
+<p><strong>第二步：补梅花卦更细</strong></p>
+<p>主题就一句话："投资合伙开餐饮"</p>
+<p>拆分数字：投(8画)、资(10画)...不好，用现代理解更好。</p>
+<p>直接用时间起卦做第二验证：</p>
+<p>5月11日午时 → 上挂5(巽) 下卦11÷8=3(离) 动(5+11+7=23÷6=5)五爻动</p>
+<p>䷤ 风火家人（跟案例一的主卦一样！）
+五爻动 → 上巽变艮 → 上艮下离 = ䷕ 山火贲</p>
+<p>体用：动在上卦 → 体巽☴（你）用离☲（事）
+巽木生离火 → <strong>体生用</strong> → 你要为此付出</p>
+<p>主卦家人䷤ → 就像一家人一起做事
+变卦贲䷕ → 修饰、外包、重包装不重实质</p>
+<p><strong>第三步：交叉验证</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">维度</th>
+<th style="text-align: left;">奇门</th>
+<th style="text-align: left;">梅花</th>
+<th style="text-align: left;">一致</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">合作性质</td>
+<td style="text-align: left;">开门+六合</td>
+<td style="text-align: left;">家人卦（家人合作）</td>
+<td style="text-align: left;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;">财务</td>
+<td style="text-align: left;">天蓬（有风险）</td>
+<td style="text-align: left;">体生用（你花钱）</td>
+<td style="text-align: left;">✅</td>
+</tr>
+<tr>
+<td style="text-align: left;">方向</td>
+<td style="text-align: left;">西北（开门）</td>
+<td style="text-align: left;">家人南向（？）</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;">实质</td>
+<td style="text-align: left;">杜门阻隔</td>
+<td style="text-align: left;">贲卦仅修饰</td>
+<td style="text-align: left;">✅ 风险不小</td>
+</tr>
+</tbody>
+</table>
+<p><strong>第四步：综合结论</strong></p>
+<div class="codehilite"><pre><span></span><code>✅ 方向对（西北·开门）
+❌ 投资有风险（天蓬+体生用=出钱）
+⚠️ 贲卦=包装漂亮，实质不足
+⚠️ 合作有内耗风险（伤门+家人卦的&quot;内部矛盾&quot;）
+
+结论：项目方向可行（西北餐饮），
+但不要一开始投太多，因为&quot;贲&quot;就是外面好看内里虚。
+而且体生用=你出钱多，天蓬=风险不小。
+
+建议：先试水，投少一些，等三个月观察。
+若期间合作方表现出不靠谱，及时撤。
+</code></pre></div>
+
+<hr />
+<h2 id="最后的赠言">最后的赠言</h2>
+<p>学到这里，你已经拥有了<strong>完整的国学天师体系</strong>：</p>
+<div class="codehilite"><pre><span></span><code>周易精读   → 知64卦的本意和来源
+系辞传     → 懂易理——&quot;一阴一阳之谓道&quot;
+五运六气   → 知天时——五年循环、六气流转
+奇门遁甲   → 知方位——时空吉凶、择时择方
+起卦实战   → 手上有功夫——铜钱、梅花都能起
+六爻纳甲   → 严谨分析——装卦六亲日月建
+梅花易数   → 万物类象——看什么都能断
+联合实战   → 双体系交叉——论断了如指掌
+</code></pre></div>
+
+<blockquote>
+<p><strong>但记住</strong>：所有知识只是工具。真正的"天师"不在于能背多少卦辞、算出多少局，而在于<strong>能不能真正帮到人</strong>——断吉凶是为了给人指路，不是为了炫技。</p>
+<p>接下来，从头开始复习一遍。<strong>第一遍是学，第二遍才是真通。</strong></p>
+</blockquote>
+        </div>
+
+        <div class="page-nav-wrap">
+          <a href="united-day07-yijing-qimen-combined.html" class="page-nav prev">‹ Day 7</a>
+          
+        </div>
+      </article>
+    </div>
+  </main>
+</div>
+
+<button id="backToTop" class="back-to-top">↑</button>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

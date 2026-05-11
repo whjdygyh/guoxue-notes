@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 6 · 国学天师 · 国学天师</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="app-wrapper">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h1>国学天师</h1>
+      <div class="subtitle">自 学 笔 记</div>
+    </div>
+    <div class="sidebar-search">
+      <input type="text" id="searchInput" placeholder="搜索笔记…">
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+☰ 周易
+</div>
+<ul class="nav-items ">
+<li class="nav-item"><a href="../yijing/day01-yinyang-bagua.html">第一天 · 阴阳爻与八卦本象 <span class="tag tag-yijing">Day1</span></a></li>
+<li class="nav-item"><a href="../yijing/day02-bagua-symbols-yaowei.html">第二天 · 八卦基本象征 + 爻位关系 <span class="tag tag-yijing">Day2</span></a></li>
+<li class="nav-item"><a href="../yijing/day03-64gua-circle-chart.html">第三天 · 六十四卦方圆图 + 六十四卦排列逻辑 <span class="tag tag-yijing">Day3</span></a></li>
+<li class="nav-item"><a href="../yijing/day04-qian-kun.html">第四天 · 六十四卦精读（一）：乾坤两卦 <span class="tag tag-yijing">Day4</span></a></li>
+<li class="nav-item"><a href="../yijing/day05-tun-meng-xu-song-shi-bi.html">第五天 · 六十四卦精读（二）：屯蒙需讼师比 <span class="tag tag-yijing">Day5</span></a></li>
+<li class="nav-item"><a href="../yijing/day06-xiaochu-lv-tai-pi-tongren-dayou.html">第六天 · 六十四卦精读（三）：小畜履泰否同人大有 <span class="tag tag-yijing">Day6</span></a></li>
+<li class="nav-item"><a href="../yijing/day07-qian-yu-sui-gu-lin-guan.html">第七天 · 六十四卦精读（四）：谦豫随蛊临观 <span class="tag tag-yijing">Day7</span></a></li>
+<li class="nav-item"><a href="../yijing/day08-shike-bi-bo-fu-wuwang-dachu.html">第八天 · 六十四卦精读（五）：噬嗑贲剥复无妄大畜 <span class="tag tag-yijing">Day8</span></a></li>
+<li class="nav-item"><a href="../yijing/day09-yi-daguo-kan-li-xian-heng.html">第九天 · 六十四卦精读（六）：颐大过坎离咸恒 <span class="tag tag-yijing">Day9</span></a></li>
+<li class="nav-item"><a href="../yijing/day10-jin-mingyi-jiaren-kui-jian-jie.html">第十天 · 六十四卦精读（七）：晋明夷家人睽蹇解 <span class="tag tag-yijing">Day10</span></a></li>
+<li class="nav-item"><a href="../yijing/day11-sun-yi-guai-gou-cui-sheng.html">第十一天 · 六十四卦精读（八）：损益夬姤萃升 <span class="tag tag-yijing">Day11</span></a></li>
+<li class="nav-item"><a href="../yijing/day12-kun-jing-ge-ding-zhen-gen.html">第十二天 · 六十四卦精读（九）：困井革鼎震艮 <span class="tag tag-yijing">Day12</span></a></li>
+<li class="nav-item"><a href="../yijing/day13-jian-guimei-feng-lv-xun-dui.html">第十三天 · 六十四卦精读（十）：渐归妹丰旅巽兑 <span class="tag tag-yijing">Day13</span></a></li>
+<li class="nav-item"><a href="../yijing/day14-huan-jie-zhongfu-xiaoguo-jiji-weiji.html">第十四天 · 六十四卦精读（终）：涣节中孚小过既济未济 <span class="tag tag-yijing">Day14</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+📜 系辞传
+</div>
+<ul class="nav-items ">
+<li class="nav-item"><a href="../xici/xici-01-upload-1-6.html">二、第一章 · 乾坤定位 · 天地之始 <span class="tag tag-xici">章1</span></a></li>
+<li class="nav-item"><a href="../xici/xici-02-upload-7-12.html">三、第九章 · 天数地数 <span class="tag tag-xici">章2</span></a></li>
+<li class="nav-item"><a href="../xici/xici-03-download-full.html">三、第二章 · 天下之动，贞夫一者也 <span class="tag tag-xici">章3</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🌬 五运六气
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day01-wuyun-foundation.html">Day 1 · 五运基础：天干化运、大运主运客运 <span class="tag tag-wuyun">Day1</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day02-liuqi-foundation.html">Day 2 · 六气基础：地支化气、司天在泉、主气客气 <span class="tag tag-wuyun">Day2</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day03-kezhu-jialin-yunqi.html">Day 3 · 客主加临与运气相合 <span class="tag tag-wuyun">Day3</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day04-shengfu-yufa-tizhi.html">Day 4 · 胜复郁发、体质推断、综合实战 <span class="tag tag-wuyun">Day4</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+⚔ 奇门地基
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../qimen/qimen-day01-foundation.html">第一天 · 奇门地基：五行天干地支九宫 <span class="tag tag-qimen">Day1</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day02-nine-stars-eight-doors-gods.html">第二天 · 九星八门八神详解 <span class="tag tag-qimen">Day2</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day03-pan-calculation.html">第三天 · 排盘实操：阴阳遁与节气定局 <span class="tag tag-qimen">Day3</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day04-duanju-intro.html">第四天 · 断局入门：用神分析与旺衰判断 <span class="tag tag-qimen">Day4</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day05-patterns-and-omens.html">第五天 · 格局全解：吉格凶格与克应 <span class="tag tag-qimen">Day5</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🎯 奇门实战
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../qimen-practice/qimen-practice-day01.html">第12周·日常断局 Day 01 — 2026年5月10日 <span class="tag tag-qimen">Day0</span></a></li>
+<li class="nav-item"><a href="../qimen-practice/qimen-practice-day02.html">Day 0 <span class="tag tag-qimen">Day0</span></a></li>
+<li class="nav-item"><a href="../qimen-practice/qimen-practice-day03.html">Day 0 <span class="tag tag-qimen">Day0</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🪙 起卦实战
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../practice/practice-day01-coins-casting.html">九、今天学到了什么 <span class="tag tag-practice">Day1</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day02-interpretation-method.html">九、今天学到了什么 <span class="tag tag-practice">Day2</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day03-tiyong-shengke.html">八、今天学到了什么 <span class="tag tag-practice">Day3</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day04-plum-blossom-numbers.html">八、今天学到了什么 <span class="tag tag-practice">Day4</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day05-comprehensive-combat.html">五、今天学到了什么 <span class="tag tag-practice">Day5</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🔮 六爻纳甲
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../liuyao/liuyao-day01-zhuang-gua-fa.html">Day 1 <span class="tag tag-liuyao">Day1</span></a></li>
+<li class="nav-item"><a href="../liuyao/liuyao-day02-six-relations.html">Day 2 <span class="tag tag-liuyao">Day2</span></a></li>
+<li class="nav-item"><a href="../liuyao/liuyao-day03-divination-practice.html">八、六爻纳甲 · 三天的知识地图 <span class="tag tag-liuyao">Day3</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🌸 梅花进阶
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../meihua/meihua-day04-wanwu-leixiang.html">Day 4 <span class="tag tag-meihua">Day4</span></a></li>
+<li class="nav-item"><a href="../meihua/meihua-day05-waiying-quxiang.html">Day 5 <span class="tag tag-meihua">Day5</span></a></li>
+<li class="nav-item"><a href="../meihua/meihua-day06-comprehensive-combat.html">Day 6 <span class="tag tag-meihua">Day6</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+⚡ 联合实战
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../united/united-day07-yijing-qimen-combined.html">Day 7 <span class="tag tag-united">Day7</span></a></li>
+<li class="nav-item"><a href="../united/united-day08-real-cases.html">Day 8 <span class="tag tag-united">Day8</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title"><span class="arrow">▼</span>📋 实战案例</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../cases/20wan-debt.html">💰 20万债权 断盘日记 <span class="tag tag-case">案例</span></a></li>
+</ul></div>
+    </nav>
+  </aside>
+
+  <main class="main-content">
+    <div class="topbar">
+      <button class="menu-toggle" id="menuToggle">☰</button>
+      <div class="breadcrumb">
+        <a href="../index.html">首页</a>
+      </div>
+      <div class="page-title">Day 6 · 国学天师</div>
+    </div>
+
+    <div class="page-content">
+      <article class="article" id="main-article">
+        <div class="article-body" id="article-body">
+          <nav class="toc"><div class="toc-title">目录</div><ul><li class="toc-h2"><a href="#一案例一问事业前途数字起卦">一、案例一：问事业前途（数字起卦）</a></li><li class="toc-h3"><a href="#背景">  背景</a></li><li class="toc-h3"><a href="#第一步起卦">  第一步：起卦</a></li><li class="toc-h3"><a href="#第二步三卦分析">  第二步：三卦分析</a></li><li class="toc-h3"><a href="#第三步体用生克">  第三步：体用生克</a></li><li class="toc-h3"><a href="#第四步类象解读">  第四步：类象解读</a></li><li class="toc-h3"><a href="#第五步综合结论">  第五步：综合结论</a></li><li class="toc-h3"><a href="#第六步具体建议">  第六步：具体建议</a></li><li class="toc-h2"><a href="#二案例二问感情走向时间起卦">二、案例二：问感情走向（时间起卦）</a></li><li class="toc-h3"><a href="#背景">  背景</a></li><li class="toc-h3"><a href="#分析">  分析</a></li><li class="toc-h3"><a href="#类象解读">  类象解读</a></li><li class="toc-h3"><a href="#结论">  结论</a></li><li class="toc-h2"><a href="#三案例三问投资方向外应起卦">三、案例三：问投资方向（外应起卦）</a></li><li class="toc-h3"><a href="#背景">  背景</a></li><li class="toc-h3"><a href="#取象">  取象</a></li><li class="toc-h3"><a href="#分析">  分析</a></li><li class="toc-h3"><a href="#类象解读">  类象解读</a></li><li class="toc-h3"><a href="#结论">  结论</a></li><li class="toc-h2"><a href="#四梅花三步断速查">四、梅花三步断速查</a></li><li class="toc-h2"><a href="#五练习完整一卦">五、练习：完整一卦</a></li><li class="toc-h2"><a href="#六梅花体系掌握检查">六、梅花体系掌握检查</a></li></ul></nav><h1>梅花进阶 · Day 06 · 综合实战 · 梅花体系全流程</h1>
+<hr />
+<p>前两天的万物类象和外应取象，是梅花易数的两把钥匙。今天是<strong>上锁开门</strong>——用真实案例把整个梅花体系走一遍。</p>
+<p>梅花易数的完整流程：</p>
+<div class="codehilite"><pre><span></span><code>① 触机（数字/时间/外应/物象）→ 得本卦
+② 定体用（动爻所在=体，不动=用）
+③ 得变卦（动爻变）
+④ 得互卦（本卦二三四爻=下互，三四五爻=上互）
+⑤ 体用生克 → 主卦吉凶
+⑥ 类象解读 → 细节判断
+⑦ 综合结论 + 建议
+</code></pre></div>
+
+<hr />
+<h2 id="一案例一问事业前途数字起卦">一、案例一：问事业前途（数字起卦）</h2>
+<h3 id="背景">背景</h3>
+<p>老公说最近在考虑要不要跳槽，他随口说了两个数：<strong>32 和 17</strong>。</p>
+<h3 id="第一步起卦">第一步：起卦</h3>
+<ul>
+<li>上卦：32 ÷ 8 = 4 余 0 → 0 为坤☷（余0=坤8）</li>
+<li>下卦：17 ÷ 8 = 2 余 1 → 1 为乾☰</li>
+<li>动爻：（32 + 17）÷ 6 = 49 ÷ 6 = 8 余 1 → 动初爻</li>
+</ul>
+<p><strong>本卦</strong>：上坤下乾 = ䷊ <strong>地天泰</strong>
+<strong>动爻</strong>：初九动（阳变阴）
+<strong>变卦</strong>：初爻动 → 下乾变巽 → ䷓ <strong>地风升</strong>（等等，初爻动的话，下卦初九变初六 → 乾☰变巽☴ → ䷭地风升）</p>
+<p>等一下让我重新算：
+- ䷊ 地天泰：上坤☷下乾☰
+- 初九动（阳变阴）
+- 下卦乾☰初爻变 → 巽☴
+- 变卦：上坤☷下巽☴ = ䷭ 地风升</p>
+<p><strong>互卦</strong>：本卦二三四爻 = 九二阳、九三阳、六四阴 → ☱兑
+本卦三四五爻 = 九三阳、六四阴、六五阴 → ☳震
+互卦 = 上震下兑 = ䷵ 雷泽归妹</p>
+<h3 id="第二步三卦分析">第二步：三卦分析</h3>
+<div class="codehilite"><pre><span></span><code>主卦：䷊ 地天泰 — 通泰、顺达
+变卦：䷭ 地风升 — 上升、晋升
+互卦：䷵ 雷泽归妹 — 合并、结合
+</code></pre></div>
+
+<h3 id="第三步体用生克">第三步：体用生克</h3>
+<p><strong>动爻在初爻（下卦）</strong> → <strong>体卦</strong> = 下卦（乾☰金）→ 你自己
+<strong>用卦</strong> = 上卦（坤☷土）→ 跳槽这件事</p>
+<p><strong>坤土生乾金</strong> → <strong>用生体</strong> → <strong>大吉</strong></p>
+<blockquote>
+<p>用生体 = 这件事对你有好处，事情本身在旺你。</p>
+</blockquote>
+<h3 id="第四步类象解读">第四步：类象解读</h3>
+<p><strong>主卦泰䷊</strong>：
+- 乾为君、为事业 → 你现在的事业根基
+- 坤为地、为大众 → 要去的环境
+- 泰 = 天地交泰 → 阴阳和合，万物通达
+- <strong>卦辞</strong>："小往大来，吉亨" → 付出的少，得到的多</p>
+<p><strong>变卦升䷭</strong>：
+- 坤为地、巽为入 → 深入大地 → 扎根、晋升
+- <strong>升卦</strong>："元亨，用见大人" → 适合去见大人物
+- 从泰到升 → 从"稳定通达"到"步步高升"</p>
+<p><strong>互卦归妹䷵</strong>：
+- 震为动、兑为说 → 谈合、协商
+- 归妹 = 女子出嫁 → 结合之象 → 你和新公司会结合</p>
+<h3 id="第五步综合结论">第五步：综合结论</h3>
+<div class="codehilite"><pre><span></span><code>✅ 用生体（坤土生乾金）= 跳槽对你有益
+✅ 主卦泰 — 天地通泰，万物通达
+✅ 变卦升 — 步步高升，职位上升
+⚠️ 互卦归妹 — 中间需要谈判/磨合
+⚠️ 初爻动 — 刚开始会比较小心，慢慢进入状态
+
+结论：大胆跳！跳了不但不吃亏，而且会有职位提升。
+</code></pre></div>
+
+<h3 id="第六步具体建议">第六步：具体建议</h3>
+<ol>
+<li>最佳时机：泰卦初爻动 → 事情在早期就会显现好处</li>
+<li>面试策略：用体生克看 → 面试官（用卦坤）对你（体卦乾）有好感（生我）</li>
+<li>薪资谈判：泰卦 = 小往大来 → 你开出的价码对方能接受</li>
+<li>注意：归妹互卦 → 要仔细看<strong>合并条款</strong>（合同里可能有合并/竞业的内容）</li>
+</ol>
+<hr />
+<h2 id="二案例二问感情走向时间起卦">二、案例二：问感情走向（时间起卦）</h2>
+<h3 id="背景">背景</h3>
+<p>有人问感情现状。当时是申时（15-17点），日期是5月11日。</p>
+<p><strong>起卦</strong>：用月数（农历三月=3）+ 日数（廿五=25）+ 时辰（申=9）</p>
+<ul>
+<li>上卦：3（月）= ☲离</li>
+<li>下卦：25 ÷ 8 = 3余1 → 1 = ☰乾</li>
+<li>动爻：（3 + 25 + 9）= 37 ÷ 6 = 6余1 → 初爻动</li>
+</ul>
+<p><strong>本卦</strong>：上离下乾 = ䷍ 火天大有
+<strong>动爻</strong>：初九动
+<strong>变卦</strong>：初爻动 → 下乾变巽 → 上离下巽 = ䷫ <strong>天风姤</strong>（等等——上离下巽不是天风姤？让我再算。初爻动乾☰变巽☴，上离☲不变 → ䷫天风姤）</p>
+<p>䷫ 天风姤 = 上乾下巽…不对。重来：</p>
+<p>䷍ 火天大有：上离☲下乾☰
+初爻动（阳变阴）→ 乾☰的初九变初六 == 巽☴
+变卦：上离☲下巽☴ = ䷫ <strong>天风姤</strong>（上乾下巽）</p>
+<p>等一下，离是☲还是乾是☰？</p>
+<p>䷍ 火天大有 = 上离☲(3)下乾☰(1)
+初爻动：下卦乾☰初九变初六 → 巽☴
+变卦：上离☲下巽☴ = ䷱ <strong>火风鼎</strong></p>
+<p>䷱ 火风鼎（上离下巽）</p>
+<p>所以互卦：大有卦二三四爻 = 九二阳、九三阳、九四阳 → 乾☰
+三四五爻 = 九三阳、九四阳、六五阴 → 兑☱
+互卦 = 上兑☱下乾☰ = ䷪ <strong>泽天夬</strong></p>
+<h3 id="分析">分析</h3>
+<div class="codehilite"><pre><span></span><code>主卦：䷍ 火天大有 — 大有收获、丰盛圆满
+变卦：䷱ 火风鼎 — 鼎新、立新、重新开始
+互卦：䷪ 泽天夬 — 决断、果断割舍
+</code></pre></div>
+
+<p><strong>体用</strong>：动爻在初爻（下卦）→ <strong>体卦下乾☰</strong>（你/问卦人）
+<strong>用卦上离☲</strong>（感情/对方）
+<strong>用克体</strong>：火克金 → ❌ <strong>用克体 = 凶</strong></p>
+<p>主卦尽管叫"大有"，但在体用层面是<strong>火克金（用克体）</strong>。</p>
+<h3 id="类象解读">类象解读</h3>
+<p><strong>主卦大有䷍</strong>：
+- 离为火（明）+ 乾为天（健）= 光明强盛
+- 卦辞："元亨" — 大亨通
+- 但问题是体用克 → <strong>外面看光鲜，实际你自己在煎熬</strong></p>
+<p><strong>变卦鼎䷱</strong>：
+- 上离火下巽风 → 风助火势
+- 鼎 = 立新、去掉旧的换上新的
+- <strong>鼎卦</strong>：需要"革故鼎新" → 感情里可能需要换一种方式相处，或者换个对象</p>
+<p><strong>互卦夬䷪</strong>：
+- 泽天夬 = 决断，决裂
+- 五阳决一阴 → 众阳把一阴剔除 → 某种割舍即将发生</p>
+<h3 id="结论">结论</h3>
+<div class="codehilite"><pre><span></span><code>⚠️ 主卦用克体（火克金）= 感情消耗了你，你在被&quot;烧&quot;
+⚠️ 互卦夬 = 需要做一个决断
+⚠️ 变卦鼎 = 必须&quot;换一个&quot;思路/方式/对象
+
+不是吓人，而是大有的&quot;丰盛&quot;是表面的，
+鼎卦告诉你要&quot;革故鼎新&quot;。
+</code></pre></div>
+
+<p><strong>具体建议</strong>：
+1. 主卦虽然叫"大有"但体用克 → 这段感情在消耗你
+2. 建议时间：变卦鼎 → 鼎新需要时间，观察三个月（鼎卦=三足）
+3. 如果对方找你：看在变卦风火相生的份上，她能意识到问题但需要你先迈出那一步（火在上为明，她能看到但不会主动动）
+4. 最终判断：互卦夬字面意思就是"决断"——你要敢于做决定</p>
+<hr />
+<h2 id="三案例三问投资方向外应起卦">三、案例三：问投资方向（外应起卦）</h2>
+<h3 id="背景">背景</h3>
+<p>在朋友办公室聊天，朋友问"最近有什么好的投资方向"。话音刚落，窗外有<strong>一只鸟从西往东飞过</strong>。</p>
+<h3 id="取象">取象</h3>
+<ul>
+<li>鸟飞向西→东 → 方向变化</li>
+<li>西→兑☱，东→震☳</li>
+<li>鸟=离（雉类）</li>
+<li>但这里方向优先 → 起点西（兑）、终点东（震）</li>
+</ul>
+<p><strong>上卦</strong>：西→兑 2
+<strong>下卦</strong>：东→震 4
+<strong>动爻</strong>：（2 + 4）÷ 6 = 6 ÷ 6 = 0 → 上爻动</p>
+<p><strong>本卦</strong>：上兑下震 = ䷐ <strong>泽雷随</strong>
+<strong>动爻</strong>：上六动
+<strong>变卦</strong>：上六爻动 → 兑☱变乾☰ → 上乾下震 = ䷘ <strong>天雷无妄</strong></p>
+<p><strong>互卦</strong>：随卦二三四爻 = 六二阴、六三阴、九四阳 → 艮☶
+三四五爻 = 六三阴、九四阳、九五阳 → 巽☴
+互卦 = 上巽下艮 = ䷴ <strong>风山渐</strong></p>
+<h3 id="分析">分析</h3>
+<div class="codehilite"><pre><span></span><code>主卦：䷐ 泽雷随 — 跟随、顺应时势
+变卦：䷘ 天雷无妄 — 不妄为，不投机
+互卦：䷴ 风山渐 — 渐进，慢慢来
+</code></pre></div>
+
+<p><strong>体用</strong>：动爻上六 → <strong>体卦上兑☱</strong>（问卦人/朋友）
+<strong>用卦下震☳</strong>（投资这件事）
+<strong>用克体</strong>：震木克兑金 → ❌ <strong>用克体 = 凶</strong></p>
+<h3 id="类象解读">类象解读</h3>
+<p><strong>随卦䷐</strong> — "元亨利贞，无咎"
+但是用克体 → 虽吉象但有内在消耗风险</p>
+<p><strong>变卦无妄䷘</strong> — "元亨利贞。其匪正有眚，不利有攸往"
+无妄 = 不要乱动，不要投机
+大旱卦→不利行动</p>
+<p><strong>互卦渐䷴</strong> — 渐进、缓慢稳定</p>
+<h3 id="结论">结论</h3>
+<div class="codehilite"><pre><span></span><code>❌ 用克体（震木克兑金）= 现在投资会亏
+❌ 变卦无妄 = &quot;不利有攸往&quot;（不利于行动）
+✅ 互卦渐 = 慢慢来，不着急
+
+→ 现在不是投资好时机。等三个月再看。
+→ 建议关注：渐卦的方向——&quot;女归吉&quot;
+   可能就是女性主导/女性消费领域。
+</code></pre></div>
+
+<hr />
+<h2 id="四梅花三步断速查">四、梅花三步断速查</h2>
+<p>想在实战中快速判断？这三步就够了：</p>
+<div class="codehilite"><pre><span></span><code>第一步：体用生克（吉凶总纲）
+体克用 = 我能控局面，吉
+用生体 = 事情帮我，大吉
+用克体 = 事情伤我，凶
+体生用 = 我消耗了，小凶
+体用和合（同五行）= 平，看具体卦象
+
+第二步：主卦名（定性）
+一看卦名就大概知道类别：
+- 泰/谦/益=好
+- 否/剥/困=差
+- 既济/未济=已完成/未完成
+
+第三步：变卦（结果）
+好结果要看变卦是否真吉
+凶结果要看变卦能否化解
+</code></pre></div>
+
+<hr />
+<h2 id="五练习完整一卦">五、练习：完整一卦</h2>
+<p>某天你去吃午饭，路上看到<strong>一个老人在台阶前摔了一跤，旁边的人把他扶起来</strong>。你用这个外应起卦，看看<strong>今天整体的运势如何</strong>。</p>
+<p>步骤：
+① 取象：老人=？台阶=？摔=？扶=？
+② 得上卦下卦
+③ 定体用
+④ 得变卦
+⑤ 体用生克
+⑥ 综合结论</p>
+<details>
+<summary>👆 自己走一遍完整实战</summary>
+
+**取象**：
+- 老人 = 乾☰（父、老、尊）
+- 台阶 = 艮☶（止、高、阶）
+- 摔在地上 = 动在台阶 → 艮遇震（摔是动，地是坤）
+- 扶起来 = 人来助（帮手）
+
+最直接：老人（乾）在台阶（艮）摔倒 → 上艮下乾 = ䷙ 山天大畜
+
+但摔倒是一个动作（震象），扶起来也是动作（人助）。这里取象有点模糊，我们再简化：
+
+**简法**：老人=乾（上卦），台阶=艮（下卦）→ ䷙山天大畜
+**动爻**：摔的动作=突然的动 → 震为4 → 取数字"摔"这个动作的震动感 → 4爻动
+
+**变卦**：大畜䷙四爻动 → 六四变九四 → 上艮☶变离☲ → 上离下乾 = ䷍ 火天大有
+
+**体用**：动爻在四爻（上卦）→ **体卦=上卦艮☶**（你/问卦人）
+**用卦=下卦乾☰**（今天的事）
+体土生用金 → **体生用 = 你今天会为他人付出**
+
+**综合**：
+- 主卦大畜：积蓄、准备、训练→你今天本来就在积累中
+- 体生用：你在为别人/别的事付出
+- 变卦大有：付出后有大的收获
+
+**结论**：今天整体不错。虽然你会为别人忙（体生用），但是最后会有"大有"的收获——你的付出不会白费，别人会记得你的好。
+
+注意那个"扶起来"的动作：正因为你（或别人）伸手去扶，才成就了大有结果。**助人者天助之**。
+</details>
+
+<hr />
+<h2 id="六梅花体系掌握检查">六、梅花体系掌握检查</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">技能</th>
+<th style="text-align: center;">掌握程度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">数字起卦（三数法）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">时间起卦（年月日时）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">外应起卦（万物取象）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">定体用（动爻所在=体）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">求变卦（动爻变）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">求互卦（二三四+三四五）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">体用五行生克断吉凶</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">主卦名象解读</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">变卦结果解读</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">综合给建议</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>梅花易数的精髓就是<strong>快</strong>——看到任何东西，一念之间取象起卦，脱口而出断吉凶。练到"看见红灯→离卦→出门注意火性事项"这个程度，就算是出师了。</p>
+<p>今天过后，我们进入最后一个阶段：<strong>周易+奇门联合实战</strong>——两个体系交叉验证，这才是真正的"天师级"断法。</p>
+</blockquote>
+<hr />
+<p><em>联合实战 · Day 07 — 周易+奇门联合断法 · 双体系交叉验证</em></p>
+        </div>
+
+        <div class="page-nav-wrap">
+          <a href="meihua-day05-waiying-quxiang.html" class="page-nav prev">‹ Day 5</a>
+          
+        </div>
+      </article>
+    </div>
+  </main>
+</div>
+
+<button id="backToTop" class="back-to-top">↑</button>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

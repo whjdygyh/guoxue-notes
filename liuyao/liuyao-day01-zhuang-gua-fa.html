@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 1 · 国学天师 · 国学天师</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="app-wrapper">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h1>国学天师</h1>
+      <div class="subtitle">自 学 笔 记</div>
+    </div>
+    <div class="sidebar-search">
+      <input type="text" id="searchInput" placeholder="搜索笔记…">
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+☰ 周易
+</div>
+<ul class="nav-items ">
+<li class="nav-item"><a href="../yijing/day01-yinyang-bagua.html">第一天 · 阴阳爻与八卦本象 <span class="tag tag-yijing">Day1</span></a></li>
+<li class="nav-item"><a href="../yijing/day02-bagua-symbols-yaowei.html">第二天 · 八卦基本象征 + 爻位关系 <span class="tag tag-yijing">Day2</span></a></li>
+<li class="nav-item"><a href="../yijing/day03-64gua-circle-chart.html">第三天 · 六十四卦方圆图 + 六十四卦排列逻辑 <span class="tag tag-yijing">Day3</span></a></li>
+<li class="nav-item"><a href="../yijing/day04-qian-kun.html">第四天 · 六十四卦精读（一）：乾坤两卦 <span class="tag tag-yijing">Day4</span></a></li>
+<li class="nav-item"><a href="../yijing/day05-tun-meng-xu-song-shi-bi.html">第五天 · 六十四卦精读（二）：屯蒙需讼师比 <span class="tag tag-yijing">Day5</span></a></li>
+<li class="nav-item"><a href="../yijing/day06-xiaochu-lv-tai-pi-tongren-dayou.html">第六天 · 六十四卦精读（三）：小畜履泰否同人大有 <span class="tag tag-yijing">Day6</span></a></li>
+<li class="nav-item"><a href="../yijing/day07-qian-yu-sui-gu-lin-guan.html">第七天 · 六十四卦精读（四）：谦豫随蛊临观 <span class="tag tag-yijing">Day7</span></a></li>
+<li class="nav-item"><a href="../yijing/day08-shike-bi-bo-fu-wuwang-dachu.html">第八天 · 六十四卦精读（五）：噬嗑贲剥复无妄大畜 <span class="tag tag-yijing">Day8</span></a></li>
+<li class="nav-item"><a href="../yijing/day09-yi-daguo-kan-li-xian-heng.html">第九天 · 六十四卦精读（六）：颐大过坎离咸恒 <span class="tag tag-yijing">Day9</span></a></li>
+<li class="nav-item"><a href="../yijing/day10-jin-mingyi-jiaren-kui-jian-jie.html">第十天 · 六十四卦精读（七）：晋明夷家人睽蹇解 <span class="tag tag-yijing">Day10</span></a></li>
+<li class="nav-item"><a href="../yijing/day11-sun-yi-guai-gou-cui-sheng.html">第十一天 · 六十四卦精读（八）：损益夬姤萃升 <span class="tag tag-yijing">Day11</span></a></li>
+<li class="nav-item"><a href="../yijing/day12-kun-jing-ge-ding-zhen-gen.html">第十二天 · 六十四卦精读（九）：困井革鼎震艮 <span class="tag tag-yijing">Day12</span></a></li>
+<li class="nav-item"><a href="../yijing/day13-jian-guimei-feng-lv-xun-dui.html">第十三天 · 六十四卦精读（十）：渐归妹丰旅巽兑 <span class="tag tag-yijing">Day13</span></a></li>
+<li class="nav-item"><a href="../yijing/day14-huan-jie-zhongfu-xiaoguo-jiji-weiji.html">第十四天 · 六十四卦精读（终）：涣节中孚小过既济未济 <span class="tag tag-yijing">Day14</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+📜 系辞传
+</div>
+<ul class="nav-items ">
+<li class="nav-item"><a href="../xici/xici-01-upload-1-6.html">二、第一章 · 乾坤定位 · 天地之始 <span class="tag tag-xici">章1</span></a></li>
+<li class="nav-item"><a href="../xici/xici-02-upload-7-12.html">三、第九章 · 天数地数 <span class="tag tag-xici">章2</span></a></li>
+<li class="nav-item"><a href="../xici/xici-03-download-full.html">三、第二章 · 天下之动，贞夫一者也 <span class="tag tag-xici">章3</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🌬 五运六气
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day01-wuyun-foundation.html">Day 1 · 五运基础：天干化运、大运主运客运 <span class="tag tag-wuyun">Day1</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day02-liuqi-foundation.html">Day 2 · 六气基础：地支化气、司天在泉、主气客气 <span class="tag tag-wuyun">Day2</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day03-kezhu-jialin-yunqi.html">Day 3 · 客主加临与运气相合 <span class="tag tag-wuyun">Day3</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day04-shengfu-yufa-tizhi.html">Day 4 · 胜复郁发、体质推断、综合实战 <span class="tag tag-wuyun">Day4</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+⚔ 奇门地基
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../qimen/qimen-day01-foundation.html">第一天 · 奇门地基：五行天干地支九宫 <span class="tag tag-qimen">Day1</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day02-nine-stars-eight-doors-gods.html">第二天 · 九星八门八神详解 <span class="tag tag-qimen">Day2</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day03-pan-calculation.html">第三天 · 排盘实操：阴阳遁与节气定局 <span class="tag tag-qimen">Day3</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day04-duanju-intro.html">第四天 · 断局入门：用神分析与旺衰判断 <span class="tag tag-qimen">Day4</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day05-patterns-and-omens.html">第五天 · 格局全解：吉格凶格与克应 <span class="tag tag-qimen">Day5</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🎯 奇门实战
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../qimen-practice/qimen-practice-day01.html">第12周·日常断局 Day 01 — 2026年5月10日 <span class="tag tag-qimen">Day0</span></a></li>
+<li class="nav-item"><a href="../qimen-practice/qimen-practice-day02.html">Day 0 <span class="tag tag-qimen">Day0</span></a></li>
+<li class="nav-item"><a href="../qimen-practice/qimen-practice-day03.html">Day 0 <span class="tag tag-qimen">Day0</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🪙 起卦实战
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../practice/practice-day01-coins-casting.html">九、今天学到了什么 <span class="tag tag-practice">Day1</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day02-interpretation-method.html">九、今天学到了什么 <span class="tag tag-practice">Day2</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day03-tiyong-shengke.html">八、今天学到了什么 <span class="tag tag-practice">Day3</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day04-plum-blossom-numbers.html">八、今天学到了什么 <span class="tag tag-practice">Day4</span></a></li>
+<li class="nav-item"><a href="../practice/practice-day05-comprehensive-combat.html">五、今天学到了什么 <span class="tag tag-practice">Day5</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🔮 六爻纳甲
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../liuyao/liuyao-day01-zhuang-gua-fa.html">Day 1 <span class="tag tag-liuyao">Day1</span></a></li>
+<li class="nav-item"><a href="../liuyao/liuyao-day02-six-relations.html">Day 2 <span class="tag tag-liuyao">Day2</span></a></li>
+<li class="nav-item"><a href="../liuyao/liuyao-day03-divination-practice.html">八、六爻纳甲 · 三天的知识地图 <span class="tag tag-liuyao">Day3</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🌸 梅花进阶
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../meihua/meihua-day04-wanwu-leixiang.html">Day 4 <span class="tag tag-meihua">Day4</span></a></li>
+<li class="nav-item"><a href="../meihua/meihua-day05-waiying-quxiang.html">Day 5 <span class="tag tag-meihua">Day5</span></a></li>
+<li class="nav-item"><a href="../meihua/meihua-day06-comprehensive-combat.html">Day 6 <span class="tag tag-meihua">Day6</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+⚡ 联合实战
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../united/united-day07-yijing-qimen-combined.html">Day 7 <span class="tag tag-united">Day7</span></a></li>
+<li class="nav-item"><a href="../united/united-day08-real-cases.html">Day 8 <span class="tag tag-united">Day8</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title"><span class="arrow">▼</span>📋 实战案例</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../cases/20wan-debt.html">💰 20万债权 断盘日记 <span class="tag tag-case">案例</span></a></li>
+</ul></div>
+    </nav>
+  </aside>
+
+  <main class="main-content">
+    <div class="topbar">
+      <button class="menu-toggle" id="menuToggle">☰</button>
+      <div class="breadcrumb">
+        <a href="../index.html">首页</a>
+      </div>
+      <div class="page-title">Day 1 · 国学天师</div>
+    </div>
+
+    <div class="page-content">
+      <article class="article" id="main-article">
+        <div class="article-body" id="article-body">
+          <nav class="toc"><div class="toc-title">目录</div><ul><li class="toc-h2"><a href="#一为什么装卦是基本功">一、为什么装卦是基本功</a></li><li class="toc-h2"><a href="#二八宫卦序">二、八宫卦序</a></li><li class="toc-h3"><a href="#八纯卦宫主">  八纯卦（宫主）</a></li><li class="toc-h3"><a href="#定八宫的方法">  定八宫的方法</a></li><li class="toc-h3"><a href="#八宫64卦逐宫表">  八宫64卦逐宫表</a></li><li class="toc-h2"><a href="#三安世应">三、安世应</a></li><li class="toc-h2"><a href="#四纳甲法">四、纳甲法</a></li><li class="toc-h3"><a href="#纳干天干">  纳干（天干）</a></li><li class="toc-h3"><a href="#纳支地支">  纳支（地支）</a></li><li class="toc-h2"><a href="#五完整装卦示例">五、完整装卦示例</a></li><li class="toc-h3"><a href="#案例水雷屯问事业前景">  案例：䷂ 水雷屯 — 问事业前景</a></li><li class="toc-h2"><a href="#六总结装卦流程">六、总结装卦流程</a></li><li class="toc-h2"><a href="#七练习">七、练习</a></li><li class="toc-h3"><a href="#练习1">  练习1</a></li><li class="toc-h3"><a href="#练习2">  练习2</a></li><li class="toc-h2"><a href="#八今日掌握检查">八、今日掌握检查</a></li></ul></nav><h1>六爻纳甲 · Day 01 · 装卦法 · 八宫纳甲安世应</h1>
+<hr />
+<p>六爻占卜是《周易》最实战化的分支——比梅花易数更严谨，比卦辞直读更精准。它把一卦的六爻用<strong>天干、地支、五行、六亲、世应</strong>全部装填下去，然后像看地图一样逐层分析。</p>
+<p>今天先打好基础：<strong>装卦法</strong>。把起出的卦变成一张完整的"作战地图"。</p>
+<hr />
+<h2 id="一为什么装卦是基本功">一、为什么装卦是基本功</h2>
+<p>摇出6次铜钱 → 得到本卦 → 这还是"骨架"。装卦就是给这骨架填上血肉：</p>
+<div class="codehilite"><pre><span></span><code>起卦得到䷂ 水雷屯（骨架）
+    ↓
+装世应 → 世在初爻，应在四爻
+    ↓
+纳天干地支 → 每爻带上干支五行
+    ↓
+纳六亲 → 每个爻有了身份（我/父母/兄弟/妻财/官鬼/子孙）
+</code></pre></div>
+
+<p>不学会装卦，六爻的<strong>六亲体系</strong>、<strong>用神分析</strong>、<strong>日月建旺衰</strong>全都没法用。</p>
+<p>装卦分三步：<strong>定八宫→安世应→纳甲纳支</strong>。一次搞定，后面两天的内容就全靠这个基础往上垒。</p>
+<hr />
+<h2 id="二八宫卦序">二、八宫卦序</h2>
+<p>六十四卦全部归属于 <strong>八纯卦</strong> 统领的八个"家族"，每个家族8个卦。</p>
+<h3 id="八纯卦宫主">八纯卦（宫主）</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">宫名</th>
+<th style="text-align: center;">卦象</th>
+<th style="text-align: center;">五行</th>
+<th style="text-align: center;">代表</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">乾宫</td>
+<td style="text-align: center;">☰☰䷀</td>
+<td style="text-align: center;">金</td>
+<td style="text-align: center;">天，父，君</td>
+</tr>
+<tr>
+<td style="text-align: left;">坎宫</td>
+<td style="text-align: center;">☵☵䷜</td>
+<td style="text-align: center;">水</td>
+<td style="text-align: center;">水，险，中男</td>
+</tr>
+<tr>
+<td style="text-align: left;">艮宫</td>
+<td style="text-align: center;">☶☶䷳</td>
+<td style="text-align: center;">土</td>
+<td style="text-align: center;">山，止，少男</td>
+</tr>
+<tr>
+<td style="text-align: left;">震宫</td>
+<td style="text-align: center;">☳☳䷲</td>
+<td style="text-align: center;">木</td>
+<td style="text-align: center;">雷，动，长男</td>
+</tr>
+<tr>
+<td style="text-align: left;">巽宫</td>
+<td style="text-align: center;">☴☴䷸</td>
+<td style="text-align: center;">木</td>
+<td style="text-align: center;">风，入，长女</td>
+</tr>
+<tr>
+<td style="text-align: left;">离宫</td>
+<td style="text-align: center;">☲☲䷝</td>
+<td style="text-align: center;">火</td>
+<td style="text-align: center;">火，明，中女</td>
+</tr>
+<tr>
+<td style="text-align: left;">坤宫</td>
+<td style="text-align: center;">☷☷䷭</td>
+<td style="text-align: center;">土</td>
+<td style="text-align: center;">地，顺，母</td>
+</tr>
+<tr>
+<td style="text-align: left;">兑宫</td>
+<td style="text-align: center;">☱☱䷹</td>
+<td style="text-align: center;">金</td>
+<td style="text-align: center;">泽，悦，少女</td>
+</tr>
+</tbody>
+</table>
+<p>口诀：<strong>乾坎艮震巽离坤兑</strong></p>
+<blockquote>
+<p><strong>记忆法</strong>：上卦和下卦相同就是八纯卦。比如䷀（乾上乾下）就是乾宫。</p>
+</blockquote>
+<h3 id="定八宫的方法">定八宫的方法</h3>
+<p>当你起出一卦（比如䷂ 水雷屯），怎么知道它属于哪一宫？</p>
+<p><strong>方法</strong>：看卦的 <strong>上卦（外卦）的第几爻变了</strong>，就归到变回去那个纯卦的宫。</p>
+<p>更直观的 <strong><em>八宫世应口诀</em></strong>：</p>
+<div class="codehilite"><pre><span></span><code>八卦之首世六当，以下初爻轮上扬；
+游魂八卦四爻立，归魂八卦三爻详。
+</code></pre></div>
+
+<p>翻译：
+- <strong>八纯卦</strong>：世在六爻（上爻）
+- <strong>一爻变</strong>：世在初爻
+- <strong>二爻变</strong>：世在二爻
+- <strong>三爻变</strong>：世在三爻
+- <strong>四爻变</strong>：世在四爻
+- <strong>五爻变</strong>：世在五爻
+- <strong>游魂卦</strong>：世在四爻（第四爻又变回来了）
+- <strong>归魂卦</strong>：世在三爻（三个下爻全变回本宫）</p>
+<h3 id="八宫64卦逐宫表">八宫64卦逐宫表</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">宫位</th>
+<th style="text-align: center;">世一</th>
+<th style="text-align: center;">世二</th>
+<th style="text-align: center;">世三</th>
+<th style="text-align: center;">世四</th>
+<th style="text-align: center;">世五</th>
+<th style="text-align: center;">游魂(世四)</th>
+<th style="text-align: center;">归魂(世三)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>乾☰金</strong></td>
+<td style="text-align: center;">姤䷫</td>
+<td style="text-align: center;">遁䷠</td>
+<td style="text-align: center;">否䷋</td>
+<td style="text-align: center;">观䷓</td>
+<td style="text-align: center;">剥䷖</td>
+<td style="text-align: center;">晋䷢</td>
+<td style="text-align: center;">大有䷍</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>坎☵水</strong></td>
+<td style="text-align: center;">节䷻</td>
+<td style="text-align: center;">屯䷂</td>
+<td style="text-align: center;">既济䷾</td>
+<td style="text-align: center;">革䷰</td>
+<td style="text-align: center;">丰䷶</td>
+<td style="text-align: center;">明夷䷣</td>
+<td style="text-align: center;">师䷆</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>艮☶土</strong></td>
+<td style="text-align: center;">贲䷕</td>
+<td style="text-align: center;">大畜䷙</td>
+<td style="text-align: center;">损䷨</td>
+<td style="text-align: center;">睽䷥</td>
+<td style="text-align: center;">履䷉</td>
+<td style="text-align: center;">中孚䷼</td>
+<td style="text-align: center;">渐䷴</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>震☳木</strong></td>
+<td style="text-align: center;">豫䷏</td>
+<td style="text-align: center;">解䷧</td>
+<td style="text-align: center;">恒䷟</td>
+<td style="text-align: center;">升䷭</td>
+<td style="text-align: center;">井䷯</td>
+<td style="text-align: center;">大过䷛</td>
+<td style="text-align: center;">随䷐</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>巽☴木</strong></td>
+<td style="text-align: center;">小畜䷈</td>
+<td style="text-align: center;">家人䷤</td>
+<td style="text-align: center;">益䷼</td>
+<td style="text-align: center;">无妄䷘</td>
+<td style="text-align: center;">噬嗑䷔</td>
+<td style="text-align: center;">颐䷚</td>
+<td style="text-align: center;">蛊䷑</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>离☲火</strong></td>
+<td style="text-align: center;">旅䷷</td>
+<td style="text-align: center;">鼎䷱</td>
+<td style="text-align: center;">未济䷿</td>
+<td style="text-align: center;">蒙䷃</td>
+<td style="text-align: center;">涣䷺</td>
+<td style="text-align: center;">讼䷅</td>
+<td style="text-align: center;">同人䷌</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>坤☷土</strong></td>
+<td style="text-align: center;">复䷗</td>
+<td style="text-align: center;">临䷒</td>
+<td style="text-align: center;">泰䷊</td>
+<td style="text-align: center;">大壮䷡</td>
+<td style="text-align: center;">夬䷪</td>
+<td style="text-align: center;">需䷄</td>
+<td style="text-align: center;">比䷇</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>兑☱金</strong></td>
+<td style="text-align: center;">困䷮</td>
+<td style="text-align: center;">萃䷬</td>
+<td style="text-align: center;">咸䷞</td>
+<td style="text-align: center;">蹇䷦</td>
+<td style="text-align: center;">谦䷎</td>
+<td style="text-align: center;">小过䷽</td>
+<td style="text-align: center;">归妹䷵</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>怎么用</strong>：比如你起出䷂ 水雷屯，查表发现它在"坎宫世二"的位置 → 所以坎宫、世在二爻。</p>
+</blockquote>
+<p>这64张卦的位置不是乱排的，是按<strong>爻变的规律</strong>整体生成的，理解规律比死背更重要：</p>
+<div class="codehilite"><pre><span></span><code>本宫（纯卦）→ 初爻变 → 二爻变 → 三爻变 → 四爻变 → 五爻变 → 四爻回头变（游魂）→ 下三爻全部变回（归魂）
+</code></pre></div>
+
+<hr />
+<h2 id="三安世应">三、安世应</h2>
+<p><strong>世爻 = 自己</strong>（问卦人），<strong>应爻 = 对方</strong>（所问之事或人）。</p>
+<p>世应之间隔两爻（3-4-5-上为阳位，初-2-3-4为阴位时例外），规律：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">世爻位置</th>
+<th style="text-align: center;">应爻位置</th>
+<th style="text-align: left;">适用卦型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">六爻（上）</td>
+<td style="text-align: center;">三爻</td>
+<td style="text-align: left;">八纯卦</td>
+</tr>
+<tr>
+<td style="text-align: center;">初爻</td>
+<td style="text-align: center;">四爻</td>
+<td style="text-align: left;">一爻变</td>
+</tr>
+<tr>
+<td style="text-align: center;">二爻</td>
+<td style="text-align: center;">五爻</td>
+<td style="text-align: left;">二爻变</td>
+</tr>
+<tr>
+<td style="text-align: center;">三爻</td>
+<td style="text-align: center;">上爻</td>
+<td style="text-align: left;">三爻变</td>
+</tr>
+<tr>
+<td style="text-align: center;">四爻</td>
+<td style="text-align: center;">初爻</td>
+<td style="text-align: left;">四爻变 + 游魂</td>
+</tr>
+<tr>
+<td style="text-align: center;">五爻</td>
+<td style="text-align: center;">二爻</td>
+<td style="text-align: left;">五爻变</td>
+</tr>
+<tr>
+<td style="text-align: center;">四爻</td>
+<td style="text-align: center;">初爻</td>
+<td style="text-align: left;">游魂卦（同上）</td>
+</tr>
+<tr>
+<td style="text-align: center;">三爻</td>
+<td style="text-align: center;">上爻</td>
+<td style="text-align: left;">归魂卦（同上）</td>
+</tr>
+</tbody>
+</table>
+<p><strong>固定对应</strong>：世在初应在一四，世在二应在五，世在三应在六，世在四应在初，世在五应在二，世在六应在三。</p>
+<p>也就是说：<strong>世和应之间的爻位差 = 隔两爻（加2或加3，看位置）</strong>。</p>
+<p>口诀：</p>
+<div class="codehilite"><pre><span></span><code>世应相间两爻分，世在初爻应在四；
+世在二爻应在五，世在三爻应在六；
+世在四爻应在初，世在五爻应在二；
+世在六爻应在三，游魂归魂同此推。
+</code></pre></div>
+
+<h4>示例：䷂ 水雷屯</h4>
+<ul>
+<li>上卦坎☵，下卦震☳</li>
+<li>对照八宫表 → 坎宫（世在二爻）</li>
+<li>世在二爻 → 应在五爻</li>
+</ul>
+<div class="codehilite"><pre><span></span><code>䷂ 水雷屯
+上六  --  坎水
+九五  —    ← 应爻（对面）
+六四  --  
+六三  --  
+六二  --   ← 世爻（自己）
+初九  —   震雷
+</code></pre></div>
+
+<blockquote>
+<p>问感情：世爻（自己）是六二阴爻，应爻（对方）是九五阳爻 → 你在低位，对方在高位，高攀关系。</p>
+</blockquote>
+<hr />
+<h2 id="四纳甲法">四、纳甲法</h2>
+<p>纳甲 = 给每一爻配上<strong>天干地支</strong>。</p>
+<p><strong>重要性</strong>：没有干支，就无法判断五行旺衰、生克制化、六亲关系。纳甲是六爻的"能源系统"。</p>
+<h3 id="纳干天干">纳干（天干）</h3>
+<p>每卦外卦和内卦各配一个天干：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">宫</th>
+<th style="text-align: center;">内卦（下三爻）</th>
+<th style="text-align: center;">外卦（上三爻）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">乾☰</td>
+<td style="text-align: center;">甲</td>
+<td style="text-align: center;">壬</td>
+</tr>
+<tr>
+<td style="text-align: center;">坎☵</td>
+<td style="text-align: center;">戊</td>
+<td style="text-align: center;">戊</td>
+</tr>
+<tr>
+<td style="text-align: center;">艮☶</td>
+<td style="text-align: center;">丙</td>
+<td style="text-align: center;">丙</td>
+</tr>
+<tr>
+<td style="text-align: center;">震☳</td>
+<td style="text-align: center;">庚</td>
+<td style="text-align: center;">庚</td>
+</tr>
+<tr>
+<td style="text-align: center;">巽☴</td>
+<td style="text-align: center;">辛</td>
+<td style="text-align: center;">辛</td>
+</tr>
+<tr>
+<td style="text-align: center;">离☲</td>
+<td style="text-align: center;">己</td>
+<td style="text-align: center;">己</td>
+</tr>
+<tr>
+<td style="text-align: center;">坤☷</td>
+<td style="text-align: center;">乙</td>
+<td style="text-align: center;">癸</td>
+</tr>
+<tr>
+<td style="text-align: center;">兑☱</td>
+<td style="text-align: center;">丁</td>
+<td style="text-align: center;">丁</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>规律</strong>：乾坤配甲乙壬癸（天干首尾），其余六子各配一干（内卦同、外卦同）。
+乾坤比较特殊：内甲外壬（乾），内乙外癸（坤）。</p>
+</blockquote>
+<h3 id="纳支地支">纳支（地支）</h3>
+<p>六爻从下到上依次配地支，每宫有固定规律。</p>
+<p><strong>八宫纳支表</strong>（从初爻到上爻）：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">宫</th>
+<th style="text-align: center;">初爻</th>
+<th style="text-align: center;">二爻</th>
+<th style="text-align: center;">三爻</th>
+<th style="text-align: center;">四爻</th>
+<th style="text-align: center;">五爻</th>
+<th style="text-align: center;">上爻</th>
+<th style="text-align: center;">初爻属地支</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>乾☰金</strong></td>
+<td style="text-align: center;">子</td>
+<td style="text-align: center;">寅</td>
+<td style="text-align: center;">辰</td>
+<td style="text-align: center;">午</td>
+<td style="text-align: center;">申</td>
+<td style="text-align: center;">戌</td>
+<td style="text-align: center;">子（阳支起始）</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>坎☵水</strong></td>
+<td style="text-align: center;">寅</td>
+<td style="text-align: center;">辰</td>
+<td style="text-align: center;">午</td>
+<td style="text-align: center;">申</td>
+<td style="text-align: center;">戌</td>
+<td style="text-align: center;">子</td>
+<td style="text-align: center;">寅</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>艮☶土</strong></td>
+<td style="text-align: center;">辰</td>
+<td style="text-align: center;">午</td>
+<td style="text-align: center;">申</td>
+<td style="text-align: center;">戌</td>
+<td style="text-align: center;">子</td>
+<td style="text-align: center;">寅</td>
+<td style="text-align: center;">辰</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>震☳木</strong></td>
+<td style="text-align: center;">午</td>
+<td style="text-align: center;">申</td>
+<td style="text-align: center;">戌</td>
+<td style="text-align: center;">子</td>
+<td style="text-align: center;">寅</td>
+<td style="text-align: center;">辰</td>
+<td style="text-align: center;">午（子午对冲）</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>巽☴木</strong></td>
+<td style="text-align: center;">丑</td>
+<td style="text-align: center;">亥</td>
+<td style="text-align: center;">酉</td>
+<td style="text-align: center;">未</td>
+<td style="text-align: center;">巳</td>
+<td style="text-align: center;">卯</td>
+<td style="text-align: center;">丑（阴支起始，倒排）</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>离☲火</strong></td>
+<td style="text-align: center;">卯</td>
+<td style="text-align: center;">丑</td>
+<td style="text-align: center;">亥</td>
+<td style="text-align: center;">酉</td>
+<td style="text-align: center;">未</td>
+<td style="text-align: center;">巳</td>
+<td style="text-align: center;">卯</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>坤☷土</strong></td>
+<td style="text-align: center;">巳</td>
+<td style="text-align: center;">卯</td>
+<td style="text-align: center;">丑</td>
+<td style="text-align: center;">亥</td>
+<td style="text-align: center;">酉</td>
+<td style="text-align: center;">未</td>
+<td style="text-align: center;">巳</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>兑☱金</strong></td>
+<td style="text-align: center;">巳</td>
+<td style="text-align: center;">卯</td>
+<td style="text-align: center;">丑</td>
+<td style="text-align: center;">亥</td>
+<td style="text-align: center;">酉</td>
+<td style="text-align: center;">未</td>
+<td style="text-align: center;">未</td>
+</tr>
+</tbody>
+</table>
+<p><strong>核心规律</strong>：</p>
+<ol>
+<li><strong>阳宫（乾坎艮震）</strong>：地支从初爻开始，每爻<strong>顺行</strong>隔一位（子→寅→辰→午→申→戌→子→寅...）——阳支顺排</li>
+<li><strong>阴宫（巽离坤兑）</strong>：地支从初爻开始，每爻<strong>逆行</strong>隔一位（丑→亥→酉→未→巳→卯→丑→亥...）——阴支逆排</li>
+<li><strong>乾震同宫</strong>：乾和震的地支完全相同（子→寅→辰→午→申→戌），因为震是乾的长子，支系相同</li>
+<li><strong>坤兑同宫</strong>：坤和兑的地支完全相同（巳→卯→丑→亥→酉→未）</li>
+</ol>
+<blockquote>
+<p><strong>记忆口诀</strong>：
+<code>乾坎艮震阳，子寅辰午申戌顺；
+巽离坤兑阴，丑亥酉未巳卯逆。</code></p>
+<p>再简化：阳宫从子/寅/辰/午起，<strong>隔一顺排</strong>；阴宫从丑/卯/巳/未起，<strong>隔一逆排</strong>。</p>
+</blockquote>
+<hr />
+<h2 id="五完整装卦示例">五、完整装卦示例</h2>
+<h3 id="案例水雷屯问事业前景">案例：䷂ 水雷屯 — 问事业前景</h3>
+<p><strong>第一步：摇钱起卦结果</strong>
+假设摇出：初九(少阳7) —、六二(少阴6) --、六三(少阴6) --、六四(少阴8) --、九五(少阳7) —、上六(少阴8) --</p>
+<p>→ 本卦：䷂ 水雷屯</p>
+<p><strong>第二步：定八宫</strong>
+- 上坎☵ + 下震☳ → 查表：坎宫</p>
+<p><strong>第三步：安世应</strong>
+- 坎宫世在二爻 → 世=六二
+- 应在五爻 → 应=九五</p>
+<p><strong>第四步：纳干</strong>
+- 坎宫内卦（下三爻）→ 戊
+- 坎宫外卦（上三爻）→ 戊</p>
+<p><strong>第五步：纳支</strong>
+- 坎宫初爻起寅 → 初九寅、六二辰、六三午、六四申、九五戌、上六子</p>
+<p><strong>完整装卦表</strong>：</p>
+<div class="codehilite"><pre><span></span><code>䷂ 水雷屯 (坎宫二世卦)
+
+戊子   上六  --  (水)
+戊戌   九五  —   ☜ 应爻 (土)
+戊申   六四  --  (金)
+戊午   六三  --  (火)  外卦坎☵
+戊辰   六二  --  ☜ 世爻 (土)  内卦震☳
+戊寅   初九  —   (木)
+</code></pre></div>
+
+<blockquote>
+<p><strong>注释</strong>：戊是天干，子/戌/申/午/辰/寅是地支，--或—是阴阳爻，（水/土/金/火/木）是地支对应的五行。
+注意：因为是坎宫，三传全用戊干（坎是纯阳之子，内外同干）。</p>
+</blockquote>
+<p>看到没？经过装卦，原来光秃秃的六爻，现在每一爻都有了 <strong>天干+地支+五行</strong>。这就是"装卦"——把骨架变成血肉。</p>
+<hr />
+<h2 id="六总结装卦流程">六、总结装卦流程</h2>
+<p>起出一卦后，按顺序操作：</p>
+<div class="codehilite"><pre><span></span><code>① 摇钱起卦（6次）→ 得本卦
+② 看上下卦 → 定八宫（查表或按爻变推）
+③ 按口诀安世应 → 世爻和应爻标记
+④ 按宫位纳天干 → 内外卦各干
+⑤ 按宫位纳地支 → 初爻到上爻
+⑥ 给每爻标出五行 → 用地支查五行
+</code></pre></div>
+
+<p>就这样，一张完整的六爻"作战图"就出来了。</p>
+<hr />
+<h2 id="七练习">七、练习</h2>
+<h3 id="练习1">练习1</h3>
+<p>你摇出䷬ 萃卦（上兑☱下坤☷），请问：
+- 它属于哪一宫？
+- 世在几爻？应在几爻？
+- 内卦纳什么干？外卦纳什么干？
+- 初爻到上爻的地支分别是什么？</p>
+<details>
+<summary>👆 先自己推，再点开看答案</summary>
+
+**① 定宫**：䷬ 萃卦 → 上兑下坤 → 查八宫表：兑宫（世在世位置看是兑宫归魂...不对，直接查表：萃卦在**兑宫世三**）
+
+**② 世应**：世在三爻，应在六爻（上爻）
+
+**③ 纳干**：兑宫内卦→丁，外卦→丁（兑是六子之一，内外同干）
+
+**④ 纳支**：兑宫初爻起巳 → 
+- 初爻：巳
+- 二爻：卯
+- 三爻：丑
+- 四爻：亥
+- 五爻：酉
+- 上爻：未
+
+
+<div class="codehilite"><pre><span></span><code>䷬ 泽地萃（兑宫三世卦）
+
+丁未  上六  --  (土) ☜ 应爻
+丁酉  九五  —   (金)
+丁亥  九四  —   (水)
+丁丑  六三  --  (土) ☜ 世爻  外卦兑☱
+丁卯  六二  --  (木)         内卦坤☷
+丁巳  初六  --  (火)
+
+你自己看，兑是阴宫（逆排），从巳→卯→丑→亥→酉→未，倒着走，看出来了对吧？
+</code></pre></div>
+
+
+</details>
+
+<h3 id="练习2">练习2</h3>
+<p>你摇出䷍ 火天大有，请完成完整装卦（八宫、世应、干支全填）。</p>
+<details>
+<summary>👆 推完再看</summary>
+
+火天大有䷍ = 上离☲ + 下乾☰
+
+查八宫表：大有在**乾宫归魂卦**
+
+世在三爻（归魂），应在六爻（上爻）
+
+乾宫内卦→甲，外卦→壬
+
+乾宫地支：初子、二寅、三辰、四午、五申、上戌
+
+
+<div class="codehilite"><pre><span></span><code>䷍ 火天大有（乾宫归魂卦）
+
+壬戌  上九  —   (土) ☜ 应爻
+壬申  九五  —   (金)
+壬午  九四  —   (火)
+甲辰  九三  —   (土) ☜ 世爻  外卦离☲
+甲寅  九二  —   (木)         内卦乾☰
+甲子  初九  —   (水)
+</code></pre></div>
+
+
+</details>
+
+<hr />
+<h2 id="八今日掌握检查">八、今日掌握检查</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">概念</th>
+<th style="text-align: center;">掌握程度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">八宫卦序（八个宫的名称）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">八宫64卦表中查卦归宫</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">安世应规则（世应差两爻）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">八纯卦的纳干（乾坤特殊）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">阳宫纳支规律（顺排）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">阴宫纳支规律（逆排）</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+<tr>
+<td style="text-align: left;">独立完成一卦的完整装卦</td>
+<td style="text-align: center;">⬜</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>关键提醒</strong>：装卦法是六爻的"工程基础"。今天你可能觉得繁琐，但明天开始六亲用神全都要用干支五行来判断——装卦装对了后面的分析才有意义。装错了那就是"地图画错了方向"。</p>
+</blockquote>
+<hr />
+<p><em>明天：六爻纳甲 · Day 02 — 六亲体系：用神、元神、忌神、仇神、飞伏</em></p>
+        </div>
+
+        <div class="page-nav-wrap">
+          
+          <a href="liuyao-day02-six-relations.html" class="page-nav next">Day 2 ›</a>
+        </div>
+      </article>
+    </div>
+  </main>
+</div>
+
+<button id="backToTop" class="back-to-top">↑</button>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
