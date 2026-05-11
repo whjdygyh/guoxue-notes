@@ -176,6 +176,8 @@ body {
 .tag-qimen { background: rgba(194, 59, 34, 0.15); color: var(--accent-vermilion); }
 .tag-wuyun { background: rgba(91, 140, 90, 0.15); color: var(--accent-jade); }
 .tag-case { background: rgba(74, 127, 181, 0.15); color: var(--accent-blue); }
+.tag-practice { background: rgba(201, 168, 76, 0.15); color: var(--accent-gold); }
+.tag-xici { background: rgba(74, 127, 181, 0.15); color: var(--accent-blue); }
 
 /* Main */
 .main-content {
@@ -582,6 +584,10 @@ body {
 .card-wuyun::before { background: var(--accent-jade); }
 .card-case h3 { color: var(--accent-blue); }
 .card-case::before { background: var(--accent-blue); }
+.card-practice h3 { color: var(--accent-gold); }
+.card-practice::before { background: var(--accent-gold); }
+.card-xici h3 { color: var(--accent-blue); }
+.card-xici::before { background: var(--accent-blue); }
 
 /* Recent entries */
 .recent-section {
