@@ -17,12 +17,16 @@
       <input type="text" id="searchInput" placeholder="搜索笔记…">
     </div>
     <nav class="sidebar-nav">
-      <div class="nav-section">
-<div class="nav-section-title">
-<span class="arrow">▼</span>
-☰ 周易
+      <div class="nav-group">
+<div class="nav-group-title" style="color:var(--accent-gold);">
+☰ 周易经传
 </div>
-<ul class="nav-items ">
+<div class="nav-sub-section">
+<div class="nav-sub-title" data-target="yijing">
+<span class="arrow">▼</span>
+☰ 周易六十四卦
+</div>
+<ul class="nav-items" id="nav-yijing">
 <li class="nav-item"><a href="../yijing/day01-yinyang-bagua.html">第一天 · 阴阳爻与八卦本象 <span class="tag tag-yijing">Day1</span></a></li>
 <li class="nav-item"><a href="../yijing/day02-bagua-symbols-yaowei.html">第二天 · 八卦基本象征 + 爻位关系 <span class="tag tag-yijing">Day2</span></a></li>
 <li class="nav-item"><a href="../yijing/day03-64gua-circle-chart.html">第三天 · 六十四卦方圆图 + 六十四卦排列逻辑 <span class="tag tag-yijing">Day3</span></a></li>
@@ -39,35 +43,28 @@
 <li class="nav-item"><a href="../yijing/day14-huan-jie-zhongfu-xiaoguo-jiji-weiji.html">第十四天 · 六十四卦精读（终）：涣节中孚小过既济未济 <span class="tag tag-yijing">Day14</span></a></li>
 </ul>
 </div>
-<div class="nav-section">
-<div class="nav-section-title">
+<div class="nav-sub-section">
+<div class="nav-sub-title" data-target="xici">
 <span class="arrow">▼</span>
 📜 系辞传
 </div>
-<ul class="nav-items ">
+<ul class="nav-items" id="nav-xici">
 <li class="nav-item"><a href="../xici/xici-01-upload-1-6.html">二、第一章 · 乾坤定位 · 天地之始 <span class="tag tag-xici">章1</span></a></li>
 <li class="nav-item"><a href="../xici/xici-02-upload-7-12.html">三、第九章 · 天数地数 <span class="tag tag-xici">章2</span></a></li>
 <li class="nav-item"><a href="../xici/xici-03-download-full.html">三、第二章 · 天下之动，贞夫一者也 <span class="tag tag-xici">章3</span></a></li>
 </ul>
 </div>
-<div class="nav-section">
-<div class="nav-section-title">
-<span class="arrow">▼</span>
-🌬 五运六气
 </div>
-<ul class="nav-items collapsed">
-<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day01-wuyun-foundation.html">Day 1 · 五运基础：天干化运、大运主运客运 <span class="tag tag-wuyun">Day1</span></a></li>
-<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day02-liuqi-foundation.html">Day 2 · 六气基础：地支化气、司天在泉、主气客气 <span class="tag tag-wuyun">Day2</span></a></li>
-<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day03-kezhu-jialin-yunqi.html">Day 3 · 客主加临与运气相合 <span class="tag tag-wuyun">Day3</span></a></li>
-<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day04-shengfu-yufa-tizhi.html">Day 4 · 胜复郁发、体质推断、综合实战 <span class="tag tag-wuyun">Day4</span></a></li>
-</ul>
+<div class="nav-group">
+<div class="nav-group-title" style="color:var(--accent-vermilion);">
+⚔ 奇门遁甲
 </div>
-<div class="nav-section">
-<div class="nav-section-title">
+<div class="nav-sub-section">
+<div class="nav-sub-title" data-target="qimen">
 <span class="arrow">▼</span>
 ⚔ 奇门地基
 </div>
-<ul class="nav-items collapsed">
+<ul class="nav-items" id="nav-qimen">
 <li class="nav-item"><a href="../qimen/qimen-day01-foundation.html">第一天 · 奇门地基：五行天干地支九宫 <span class="tag tag-qimen">Day1</span></a></li>
 <li class="nav-item"><a href="../qimen/qimen-day02-nine-stars-eight-doors-gods.html">第二天 · 九星八门八神详解 <span class="tag tag-qimen">Day2</span></a></li>
 <li class="nav-item"><a href="../qimen/qimen-day03-pan-calculation.html">第三天 · 排盘实操：阴阳遁与节气定局 <span class="tag tag-qimen">Day3</span></a></li>
@@ -75,23 +72,28 @@
 <li class="nav-item"><a href="../qimen/qimen-day05-patterns-and-omens.html">第五天 · 格局全解：吉格凶格与克应 <span class="tag tag-qimen">Day5</span></a></li>
 </ul>
 </div>
-<div class="nav-section">
-<div class="nav-section-title">
+<div class="nav-sub-section">
+<div class="nav-sub-title" data-target="qimen-practice">
 <span class="arrow">▼</span>
 🎯 奇门实战
 </div>
-<ul class="nav-items collapsed">
+<ul class="nav-items" id="nav-qimen-practice">
 <li class="nav-item"><a href="../qimen-practice/qimen-practice-day01.html">第12周·日常断局 Day 01 — 2026年5月10日 <span class="tag tag-qimen">Day0</span></a></li>
 <li class="nav-item"><a href="../qimen-practice/qimen-practice-day02.html">奇门实战 · Day 02 · 日常断局 <span class="tag tag-qimen">Day0</span></a></li>
 <li class="nav-item"><a href="../qimen-practice/qimen-practice-day03.html">奇门遁甲 · 实战 Day 03 排盘笔记 <span class="tag tag-qimen">Day0</span></a></li>
 </ul>
 </div>
-<div class="nav-section">
-<div class="nav-section-title">
+</div>
+<div class="nav-group">
+<div class="nav-group-title" style="color:var(--accent-gold);">
+🪙 占卜实战
+</div>
+<div class="nav-sub-section">
+<div class="nav-sub-title" data-target="practice">
 <span class="arrow">▼</span>
 🪙 起卦实战
 </div>
-<ul class="nav-items collapsed">
+<ul class="nav-items" id="nav-practice">
 <li class="nav-item"><a href="../practice/practice-day01-coins-casting.html">九、今天学到了什么 <span class="tag tag-practice">Day1</span></a></li>
 <li class="nav-item"><a href="../practice/practice-day02-interpretation-method.html">九、今天学到了什么 <span class="tag tag-practice">Day2</span></a></li>
 <li class="nav-item"><a href="../practice/practice-day03-tiyong-shengke.html">八、今天学到了什么 <span class="tag tag-practice">Day3</span></a></li>
@@ -99,44 +101,49 @@
 <li class="nav-item"><a href="../practice/practice-day05-comprehensive-combat.html">五、今天学到了什么 <span class="tag tag-practice">Day5</span></a></li>
 </ul>
 </div>
-<div class="nav-section">
-<div class="nav-section-title">
+<div class="nav-sub-section">
+<div class="nav-sub-title" data-target="liuyao">
 <span class="arrow">▼</span>
 🔮 六爻纳甲
 </div>
-<ul class="nav-items collapsed">
+<ul class="nav-items" id="nav-liuyao">
 <li class="nav-item"><a href="../liuyao/liuyao-day01-zhuang-gua-fa.html">六爻纳甲 · Day 01 · 装卦法 · 八宫纳甲安世应 <span class="tag tag-liuyao">Day1</span></a></li>
 <li class="nav-item"><a href="../liuyao/liuyao-day02-six-relations.html">六爻纳甲 · Day 02 · 六亲体系 · 用神元神忌神仇神飞伏 <span class="tag tag-liuyao">Day2</span></a></li>
 <li class="nav-item"><a href="../liuyao/liuyao-day03-divination-practice.html">八、六爻纳甲 · 三天的知识地图 <span class="tag tag-liuyao">Day3</span></a></li>
 </ul>
 </div>
-<div class="nav-section">
-<div class="nav-section-title">
+<div class="nav-sub-section">
+<div class="nav-sub-title" data-target="meihua">
 <span class="arrow">▼</span>
 🌸 梅花进阶
 </div>
-<ul class="nav-items collapsed">
+<ul class="nav-items" id="nav-meihua">
 <li class="nav-item"><a href="../meihua/meihua-day04-wanwu-leixiang.html">梅花进阶 · Day 04 · 万物类象 · 八卦的无穷世界 <span class="tag tag-meihua">Day4</span></a></li>
 <li class="nav-item"><a href="../meihua/meihua-day05-waiying-quxiang.html">梅花进阶 · Day 05 · 外应取象 · 天地万物皆可断 <span class="tag tag-meihua">Day5</span></a></li>
 <li class="nav-item"><a href="../meihua/meihua-day06-comprehensive-combat.html">梅花进阶 · Day 06 · 综合实战 · 梅花体系全流程 <span class="tag tag-meihua">Day6</span></a></li>
 </ul>
 </div>
-<div class="nav-section">
-<div class="nav-section-title">
+<div class="nav-sub-section">
+<div class="nav-sub-title" data-target="united">
 <span class="arrow">▼</span>
 ⚡ 联合实战
 </div>
-<ul class="nav-items collapsed">
+<ul class="nav-items" id="nav-united">
 <li class="nav-item"><a href="../united/united-day07-yijing-qimen-combined.html">联合实战 · Day 07 · 周易 + 奇门联合断法 <span class="tag tag-united">Day7</span></a></li>
 <li class="nav-item"><a href="../united/united-day08-real-cases.html">联合实战 · Day 08 · 真实案例演练 · 三大实战 <span class="tag tag-united">Day8</span></a></li>
 </ul>
 </div>
-<div class="nav-section">
-<div class="nav-section-title">
+</div>
+<div class="nav-group">
+<div class="nav-group-title" style="color:var(--accent-gold);">
+📐 八字命理
+</div>
+<div class="nav-sub-section">
+<div class="nav-sub-title" data-target="bazi">
 <span class="arrow">▼</span>
 📐 八字精修
 </div>
-<ul class="nav-items collapsed">
+<ul class="nav-items" id="nav-bazi">
 <li class="nav-item"><a href="../bazi/bazi-day01-pai-si-zhu-dizhi-canggan.html">八字精修 · Day 01 · 排四柱精讲 + 地支藏干 <span class="tag tag-bazi">Day1</span></a></li>
 <li class="nav-item"><a href="../bazi/bazi-day02-pai-da-yun.html">八字精修 · Day 02 · 排大运 + 起运岁数 <span class="tag tag-bazi">Day2</span></a></li>
 <li class="nav-item"><a href="../bazi/bazi-day03-wangshuai.html">八字精修 · Day 03 · 旺衰法（日主强弱判断） <span class="tag tag-bazi">Day3</span></a></li>
@@ -149,20 +156,40 @@
 <li class="nav-item"><a href="../bazi/bazi-day10-zonghe-shizhan.html">四、十天精修总结 <span class="tag tag-bazi">Day10</span></a></li>
 </ul>
 </div>
-<div class="nav-section">
-<div class="nav-section-title">
+<div class="nav-sub-section">
+<div class="nav-sub-title" data-target="liuyun">
 <span class="arrow">▼</span>
 🌊 流年推运
 </div>
-<ul class="nav-items collapsed">
+<ul class="nav-items" id="nav-liuyun">
 <li class="nav-item"><a href="../liuyun/liuyun-complete.html">四、天干发用——流年天干的十神身份</a></li>
 </ul>
 </div>
-<div class="nav-section">
-<div class="nav-section-title"><span class="arrow">▼</span>📋 实战案例</div>
-<ul class="nav-items collapsed">
+</div>
+<div class="nav-group">
+<div class="nav-group-title" style="color:var(--accent-jade);">
+🌬 五运六气
+</div>
+<div class="nav-sub-section">
+<div class="nav-sub-title" data-target="wuyun">
+<span class="arrow">▼</span>
+🌬 五运六气
+</div>
+<ul class="nav-items" id="nav-wuyun">
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day01-wuyun-foundation.html">Day 1 · 五运基础：天干化运、大运主运客运 <span class="tag tag-wuyun">Day1</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day02-liuqi-foundation.html">Day 2 · 六气基础：地支化气、司天在泉、主气客气 <span class="tag tag-wuyun">Day2</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day03-kezhu-jialin-yunqi.html">Day 3 · 客主加临与运气相合 <span class="tag tag-wuyun">Day3</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day04-shengfu-yufa-tizhi.html">Day 4 · 胜复郁发、体质推断、综合实战 <span class="tag tag-wuyun">Day4</span></a></li>
+</ul>
+</div>
+</div>
+<div class="nav-group">
+<div class="nav-group-title" style="color:var(--accent-blue);">📋 实战案例</div>
+<div class="nav-sub-section">
+<div class="nav-sub-title" data-target="cases"><span class="arrow">▼</span>📋 断盘记录</div>
+<ul class="nav-items" id="nav-cases">
 <li class="nav-item"><a href="../cases/20wan-debt.html">💰 20万债权 断盘日记 <span class="tag tag-case">案例</span></a></li>
-</ul></div>
+</ul></div></div>
     </nav>
   </aside>
 
@@ -171,6 +198,7 @@
       <button class="menu-toggle" id="menuToggle">☰</button>
       <div class="breadcrumb">
         <a href="../index.html">首页</a>
+        <span class="sep">›</span><span style="color:var(--accent-jade);font-size:0.75rem;">🌬 五运六气</span>
       </div>
       <div class="page-title">Day 4 · 胜复郁发、体质推断、综合实战 · 国学天师</div>
     </div>
