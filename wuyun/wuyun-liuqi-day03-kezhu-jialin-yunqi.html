@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 3 · 客主加临与运气相合 · 国学天师 · 国学天师</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="app-wrapper">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h1>国学天师</h1>
+      <div class="subtitle">自 学 笔 记</div>
+    </div>
+    <div class="sidebar-search">
+      <input type="text" id="searchInput" placeholder="搜索笔记…">
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+☰ 周易
+</div>
+<ul class="nav-items ">
+<li class="nav-item"><a href="../yijing/day01-yinyang-bagua.html">第一天 · 阴阳爻与八卦本象 <span class="tag tag-yijing">Day1</span></a></li>
+<li class="nav-item"><a href="../yijing/day02-bagua-symbols-yaowei.html">第二天 · 八卦基本象征 + 爻位关系 <span class="tag tag-yijing">Day2</span></a></li>
+<li class="nav-item"><a href="../yijing/day03-64gua-circle-chart.html">第三天 · 六十四卦方圆图 + 六十四卦排列逻辑 <span class="tag tag-yijing">Day3</span></a></li>
+<li class="nav-item"><a href="../yijing/day04-qian-kun.html">第四天 · 六十四卦精读（一）：乾坤两卦 <span class="tag tag-yijing">Day4</span></a></li>
+<li class="nav-item"><a href="../yijing/day05-tun-meng-xu-song-shi-bi.html">第五天 · 六十四卦精读（二）：屯蒙需讼师比 <span class="tag tag-yijing">Day5</span></a></li>
+<li class="nav-item"><a href="../yijing/day06-xiaochu-lv-tai-pi-tongren-dayou.html">第六天 · 六十四卦精读（三）：小畜履泰否同人大有 <span class="tag tag-yijing">Day6</span></a></li>
+<li class="nav-item"><a href="../yijing/day07-qian-yu-sui-gu-lin-guan.html">第七天 · 六十四卦精读（四）：谦豫随蛊临观 <span class="tag tag-yijing">Day7</span></a></li>
+<li class="nav-item"><a href="../yijing/day08-shike-bi-bo-fu-wuwang-dachu.html">第八天 · 六十四卦精读（五）：噬嗑贲剥复无妄大畜 <span class="tag tag-yijing">Day8</span></a></li>
+<li class="nav-item"><a href="../yijing/day09-yi-daguo-kan-li-xian-heng.html">第九天 · 六十四卦精读（六）：颐大过坎离咸恒 <span class="tag tag-yijing">Day9</span></a></li>
+<li class="nav-item"><a href="../yijing/day10-jin-mingyi-jiaren-kui-jian-jie.html">第十天 · 六十四卦精读（七）：晋明夷家人睽蹇解 <span class="tag tag-yijing">Day10</span></a></li>
+<li class="nav-item"><a href="../yijing/day11-sun-yi-guai-gou-cui-sheng.html">第十一天 · 六十四卦精读（八）：损益夬姤萃升 <span class="tag tag-yijing">Day11</span></a></li>
+<li class="nav-item"><a href="../yijing/day12-kun-jing-ge-ding-zhen-gen.html">第十二天 · 六十四卦精读（九）：困井革鼎震艮 <span class="tag tag-yijing">Day12</span></a></li>
+<li class="nav-item"><a href="../yijing/day13-jian-guimei-feng-lv-xun-dui.html">第十三天 · 六十四卦精读（十）：渐归妹丰旅巽兑 <span class="tag tag-yijing">Day13</span></a></li>
+<li class="nav-item"><a href="../yijing/day14-huan-jie-zhongfu-xiaoguo-jiji-weiji.html">第十四天 · 六十四卦精读（终）：涣节中孚小过既济未济 <span class="tag tag-yijing">Day14</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🌬 五运六气
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day01-wuyun-foundation.html">Day 1 · 五运基础：天干化运、大运主运客运 <span class="tag tag-wuyun">Day1</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day02-liuqi-foundation.html">Day 2 · 六气基础：地支化气、司天在泉、主气客气 <span class="tag tag-wuyun">Day2</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day03-kezhu-jialin-yunqi.html">Day 3 · 客主加临与运气相合 <span class="tag tag-wuyun">Day3</span></a></li>
+<li class="nav-item"><a href="../wuyun/wuyun-liuqi-day04-shengfu-yufa-tizhi.html">Day 4 · 胜复郁发、体质推断、综合实战 <span class="tag tag-wuyun">Day4</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+⚔ 奇门地基
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../qimen/qimen-day01-foundation.html">第一天 · 奇门地基：五行天干地支九宫 <span class="tag tag-qimen">Day1</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day02-nine-stars-eight-doors-gods.html">第二天 · 九星八门八神详解 <span class="tag tag-qimen">Day2</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day03-pan-calculation.html">第三天 · 排盘实操：阴阳遁与节气定局 <span class="tag tag-qimen">Day3</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day04-duanju-intro.html">第四天 · 断局入门：用神分析与旺衰判断 <span class="tag tag-qimen">Day4</span></a></li>
+<li class="nav-item"><a href="../qimen/qimen-day05-patterns-and-omens.html">第五天 · 格局全解：吉格凶格与克应 <span class="tag tag-qimen">Day5</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title">
+<span class="arrow">▼</span>
+🎯 奇门实战
+</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../qimen-practice/qimen-practice-day01.html">第12周·日常断局 Day 01 — 2026年5月10日 <span class="tag tag-qimen">Day0</span></a></li>
+<li class="nav-item"><a href="../qimen-practice/qimen-practice-day02.html">Day 0 <span class="tag tag-qimen">Day0</span></a></li>
+<li class="nav-item"><a href="../qimen-practice/qimen-practice-day03.html">Day 0 <span class="tag tag-qimen">Day0</span></a></li>
+</ul>
+</div>
+<div class="nav-section">
+<div class="nav-section-title"><span class="arrow">▼</span>📋 实战案例</div>
+<ul class="nav-items collapsed">
+<li class="nav-item"><a href="../cases/20wan-debt.html">💰 20万债权 断盘日记 <span class="tag tag-case">案例</span></a></li>
+</ul></div>
+    </nav>
+  </aside>
+
+  <main class="main-content">
+    <div class="topbar">
+      <button class="menu-toggle" id="menuToggle">☰</button>
+      <div class="breadcrumb">
+        <a href="../index.html">首页</a>
+      </div>
+      <div class="page-title">Day 3 · 客主加临与运气相合 · 国学天师</div>
+    </div>
+
+    <div class="page-content">
+      <div id="toc" class="toc-side"></div>
+      <article class="article" id="main-article">
+        <div class="article-body" id="article-body">
+          <h1>国学天师 · 五运六气自学笔记</h1>
+<h2 id="Day3客主加临与运气相合">Day 3 · 客主加临与运气相合</h2>
+<hr />
+<h3 id="前情提要">前情提要</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">前两天学了……</th>
+<th style="text-align: left;">今天做什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Day1：五运（年干→大运+主运+客运）</td>
+<td style="text-align: left;">把五运和六气<strong>合并分析</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">Day2：六气（年支→司天在泉+主气+客气）</td>
+<td style="text-align: left;">看主气客气是否<strong>相得/相失</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>一句话：Day1+Day2 = 原材料 → Day3 = 烹饪方法。</strong></p>
+<hr />
+<h3 id="一客主加临主气与客气的化学反应">一、客主加临——主气与客气的"化学反应"</h3>
+<h4>什么是"加临"？</h4>
+<p>加临就是"客气叠加在主气上面"。</p>
+<div class="codehilite"><pre><span></span><code>客气 = 今年的变奏（每年不同）
+主气 = 固定的季节节奏（年年一样）
+加临 = 客气 加在 主气 上 → 产生实际气候
+</code></pre></div>
+
+<p>类似于：</p>
+<blockquote>
+<p>主气是"春天该有的样子"→ 回暖、春风
+客气是"今年春天额外加的东西"→ 加寒水→倒春寒；加君火→早热</p>
+</blockquote>
+<h4>加临的四种结果</h4>
+<p>客主加临的吉凶判断，主要是看<strong>客气是否克/生主气</strong>：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">结果</th>
+<th style="text-align: left;">条件</th>
+<th style="text-align: left;">解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>顺化（吉）</strong></td>
+<td style="text-align: left;">客气生主气</td>
+<td style="text-align: left;">天助我也，气候温和正常</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>天刑（凶）</strong></td>
+<td style="text-align: left;">客气克主气</td>
+<td style="text-align: left;">气候反常，灾害多</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>小逆（次吉）</strong></td>
+<td style="text-align: left;">主气生客气</td>
+<td style="text-align: left;">虽不顺，但无害</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>不和（次凶）</strong></td>
+<td style="text-align: left;">主气克客气</td>
+<td style="text-align: left;">气候不调，疾病多</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>相得（吉）</strong></td>
+<td style="text-align: left;">主客气相同</td>
+<td style="text-align: left;">一气独盛，但尚可接受</td>
+</tr>
+</tbody>
+</table>
+<p><strong>完整口诀：</strong></p>
+<blockquote>
+<p>客生主 → 顺化（吉）
+客克主 → 天刑（大凶）
+主生客 → 小逆（平）
+主克客 → 不和（次凶）
+相同 → 相得（平中带偏）</p>
+</blockquote>
+<p><strong>重要</strong>：天刑（客克主）是所有结果中最凶的，代表<strong>天地之气不和</strong>，容易出现极端气候和瘟疫。</p>
+<h4>为什么客生主是吉、客克主是凶？</h4>
+<p>这是中医"天人相应"的观念：
+- <strong>客气代表外来之气</strong>（天的力量）
+- <strong>主气代表本时之气</strong>（地的力量，本该如此）
+- 客气来帮主气（生）→ 天地和谐
+- 客气来打压主气（克）→ 天地交战</p>
+<hr />
+<h3 id="二实战2026年丙午客主加临分析">二、实战：2026年（丙午）客主加临分析</h3>
+<p>我们把Day2算好的客气和主气放一起看：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">步气</th>
+<th style="text-align: left;">时间</th>
+<th style="text-align: left;">主气</th>
+<th style="text-align: left;">2026客气</th>
+<th style="text-align: left;">相生相克</th>
+<th style="text-align: left;">结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">初</td>
+<td style="text-align: left;">1-3月</td>
+<td style="text-align: left;">厥阴风木(木)</td>
+<td style="text-align: left;">太阳寒水(水)</td>
+<td style="text-align: left;">水生木✅</td>
+<td style="text-align: left;"><strong>顺化（吉）</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">二</td>
+<td style="text-align: left;">3-5月</td>
+<td style="text-align: left;">少阴君火(火)</td>
+<td style="text-align: left;">厥阴风木(木)</td>
+<td style="text-align: left;">木生火✅</td>
+<td style="text-align: left;"><strong>顺化（吉）</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">三</td>
+<td style="text-align: left;">5-7月</td>
+<td style="text-align: left;">少阳相火(火)</td>
+<td style="text-align: left;">少阴君火(火)</td>
+<td style="text-align: left;">相同</td>
+<td style="text-align: left;"><strong>相得（平）</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">四</td>
+<td style="text-align: left;">7-9月</td>
+<td style="text-align: left;">太阴湿土(土)</td>
+<td style="text-align: left;">太阴湿土(土)</td>
+<td style="text-align: left;">相同</td>
+<td style="text-align: left;"><strong>相得（平）</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">五</td>
+<td style="text-align: left;">9-11月</td>
+<td style="text-align: left;">阳明燥金(金)</td>
+<td style="text-align: left;">少阳相火(火)</td>
+<td style="text-align: left;">火克金❌</td>
+<td style="text-align: left;"><strong>天刑（凶）</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">终</td>
+<td style="text-align: left;">11-1月</td>
+<td style="text-align: left;">太阳寒水(水)</td>
+<td style="text-align: left;">阳明燥金(金)</td>
+<td style="text-align: left;">金生水✅</td>
+<td style="text-align: left;"><strong>顺化（吉）</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>2026年分析结论：</strong></p>
+<ul>
+<li><strong>初春到初夏（初气→二气）</strong>：顺化，气候温和宜人。但别忘了大运是<strong>水运太过</strong>，水克火，春末夏初的升温可能会被大运的寒气压制。</li>
+<li><strong>盛夏到长夏（三气→四气）</strong>：相得，两火的夏天+两土的湿季，正常。</li>
+<li><strong>秋季（五气）</strong>：<strong>大问题！</strong> 相火（火）克燥金（金）→ 天刑。再加上2026大运是水运太过（水克火），五气这里火被水运克着，又去反克金——<strong>秋天会很乱</strong>，可能秋不凉、气温反常、燥气不降。</li>
+<li><strong>冬季（终气）</strong>：顺化，金生水→冬寒。水运太过+终气顺化 = <strong>今年冬天会特别冷。</strong></li>
+</ul>
+<hr />
+<h3 id="三运气相合大运客主加临的联合分析">三、运气相合——大运+客主加临的联合分析</h3>
+<p>上面只是六气层面的客主加临。完整的分析要<strong>五运和六气一起看</strong>。</p>
+<h4>四个组合类型</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">大运 + 六气</th>
+<th style="text-align: left;">特征</th>
+<th style="text-align: left;">案例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>同化</strong></td>
+<td style="text-align: left;">大运五行 = 司天/在泉五行</td>
+<td style="text-align: left;">比如水运太过 + 太阳寒水司天</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>异化</strong></td>
+<td style="text-align: left;">两者不同但相生</td>
+<td style="text-align: left;">水运太过 + 少阴君火司天</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>不和</strong></td>
+<td style="text-align: left;">大运克司天/在泉</td>
+<td style="text-align: left;">水运太过 + 少阴君火司天（水克火）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>天刑</strong></td>
+<td style="text-align: left;">司天/在泉克大运</td>
+<td style="text-align: left;">阳明燥金司天 + 木运不及（金克木）</td>
+</tr>
+</tbody>
+</table>
+<p><strong>核心关系：</strong></p>
+<blockquote>
+<p>大运是"老板"——管全年基调
+司天在泉是"部门经理"——管半年的具体执行
+两者合作不利→天气反常；合作顺利→风调雨顺</p>
+</blockquote>
+<h4>2026年完整运气分析</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">层次</th>
+<th style="text-align: left;">内容</th>
+<th style="text-align: left;">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>大运</strong></td>
+<td style="text-align: left;">水运太过（丙年）</td>
+<td style="text-align: left;">全年偏寒偏湿</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>司天</strong></td>
+<td style="text-align: left;">少阴君火</td>
+<td style="text-align: left;">上半年偏热</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>在泉</strong></td>
+<td style="text-align: left;">阳明燥金</td>
+<td style="text-align: left;">下半年偏燥</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>五气结果</strong></td>
+<td style="text-align: left;">天刑（火克金）</td>
+<td style="text-align: left;">秋季反常</td>
+</tr>
+</tbody>
+</table>
+<p><strong>关键矛盾</strong>：水运太过（大寒）vs 少阴君火司天（上半年应热）
+- 大运的水克司天的火 → <strong>不和</strong>
+- 上半年寒气与热气交战，气候波动大
+- 水太过，勉强压制住司天的火——但也会导致<strong>郁发</strong>（Day4讲）</p>
+<p><strong>综合判断：</strong>
+- 春季：水克火，但初气顺化 → 春温被寒气压，有倒春寒
+- 夏季：两火相加但水运压着 → 该热但不一定极端热
+- 秋季：天刑 → <strong>最大的异常期</strong>，气候波动
+- 冬季：顺化+水运太过 → 冷冬</p>
+<hr />
+<h3 id="四天符岁会太乙天符特殊运气格局">四、天符、岁会、太乙天符——特殊运气格局</h3>
+<p>古人把运气组合中特别强的几种情况起了名字：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">名称</th>
+<th style="text-align: left;">条件</th>
+<th style="text-align: left;">力量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>天符</strong></td>
+<td style="text-align: left;">大运五行 = 司天五行</td>
+<td style="text-align: left;">天地同气，力量极强</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>岁会</strong></td>
+<td style="text-align: left;">大运五行 = 年支五行</td>
+<td style="text-align: left;">运气集中于一年</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>同天符</strong></td>
+<td style="text-align: left;">太过之年 + 大运与在泉同</td>
+<td style="text-align: left;">下半年力量加倍</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>同岁会</strong></td>
+<td style="text-align: left;">不及之年 + 大运与在泉同</td>
+<td style="text-align: left;">下半年力量加倍</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>太乙天符</strong></td>
+<td style="text-align: left;">天符 + 岁会 同时满足</td>
+<td style="text-align: left;">天地人三合，能量最强</td>
+</tr>
+</tbody>
+</table>
+<p><strong>实战例子：</strong>
+- 2024年甲辰：甲己化土，土运太过；辰戌太阳寒水司天——不对应。
+- 但如果是<strong>丁壬年（木运）</strong>遇上<strong>巳亥年（厥阴风木司天）</strong>，就是天符（木运+风木司天，都是木）。</p>
+<p><strong>太乙天符的例子</strong>：
+- 戊午年：戊癸化火（火运太过）+ 子午少阴君火司天 + 午本身就是火
+  → 天符(火运=司天火) + 岁会(火运=年支午火) = 太乙天符
+- 辛亥年？辛为水运不及，亥为厥阴风木——不对。</p>
+<p><strong>太乙天符年通常气候极端、灾害多</strong>——能量太强了，物极必反。</p>
+<blockquote>
+<p><strong>实战速记</strong>：不用死记天符/岁会的所有规则，记住"同气为盛，盛极必反"就可以了。真正断局的时候，重点是看<strong>大运和司天的生克关系</strong>以及<strong>客主加临</strong>。</p>
+</blockquote>
+<hr />
+<h3 id="五如何用运气做实际推测">五、如何用运气做实际推测</h3>
+<p>核心方法是<strong>三步走</strong>：</p>
+<h4>第一步：定大运（年干）</h4>
+<div class="codehilite"><pre><span></span><code>看年干→化运→太过/不及→全年基调
+</code></pre></div>
+
+<h4>第二步：定司天在泉（年支）</h4>
+<div class="codehilite"><pre><span></span><code>看年支→化气→司天（上半年）→在泉（下半年）
+</code></pre></div>
+
+<h4>第三步：做客主加临</h4>
+<div class="codehilite"><pre><span></span><code>排客气六步→比对主气→看每步的顺化/天刑/小逆/不和/相得
+</code></pre></div>
+
+<h4>三分钟速查表</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">步骤</th>
+<th style="text-align: left;">查什么</th>
+<th style="text-align: left;">口诀/规则</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">年干化运</td>
+<td style="text-align: left;">甲己土、乙庚金、丙辛水、丁壬木、戊癸火</td>
+</tr>
+<tr>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">太过/不及</td>
+<td style="text-align: left;">阳干=太过，阴干=不及</td>
+</tr>
+<tr>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">年支化气</td>
+<td style="text-align: left;">子午君火、丑未湿土、寅申相火、卯酉燥金、辰戌寒水、巳亥风木</td>
+</tr>
+<tr>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">司天</td>
+<td style="text-align: left;">=年支化气</td>
+</tr>
+<tr>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">在泉</td>
+<td style="text-align: left;">=司天的对面（少阴⇄阳明、太阴⇄太阳、少阳⇄厥阴）</td>
+</tr>
+<tr>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">客主加临</td>
+<td style="text-align: left;">客气生主气=顺化吉，客气克主气=天刑凶</td>
+</tr>
+<tr>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">运气相合</td>
+<td style="text-align: left;">大运生扶/克制司天？司天生扶/克制大运？</td>
+</tr>
+</tbody>
+</table>
+<h4>案例：Hot配的生日（1983年3月6日）</h4>
+<p>癸亥年乙卯月癸未日。先看年：</p>
+<ul>
+<li>癸亥年</li>
+<li>年干=癸 → 戊癸化火 → <strong>火运不及</strong></li>
+<li>癸为阴干 → <strong>不及</strong></li>
+<li>年支=亥 → 巳亥厥阴风木 → <strong>司天=厥阴风木，在泉=少阳相火</strong></li>
+</ul>
+<p>分析：
+- 大运：火运不及 → 心火不足
+- 司天：厥阴风木 → 木生火（司天补大运）→ 对火运不及有补充
+- 在泉：少阳相火 → 下半年火气有所恢复
+- 结论：虽然出生在火运不及之年，但司天风木生火、在泉相火帮忙——先天心火并非真的不足，是"后天能补"的格局。
+- 而且我八字日主为癸水，水克火——火运不及遇上水日主，水火平衡了。这是巧合还是设计？设计时有考虑到这个。</p>
+<hr />
+<h3 id="六运气的化与制">六、运气的"化"与"制"</h3>
+<p>运气学不只是看谁克谁，还要看<strong>气化的动态过程</strong>：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">关系</th>
+<th style="text-align: left;">描述</th>
+<th style="text-align: left;">现实含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>亢则害</strong></td>
+<td style="text-align: left;">五运太过，必然伤其所胜</td>
+<td style="text-align: left;">水太过→害心火（心血管病多）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>承乃制</strong></td>
+<td style="text-align: left;">被克的一方反过来约束克方</td>
+<td style="text-align: left;">水太过→土来承制（湿气制寒）</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>制则生化</strong></td>
+<td style="text-align: left;">相克关系平衡后才能化生万物</td>
+<td style="text-align: left;">有寒有热才能交替生长</td>
+</tr>
+</tbody>
+</table>
+<p><strong>所以光看"什么年运"不够，还要看"是否有制约"。</strong></p>
+<p>比如说2026年水运太过，看起来全是寒。但司天是少阴君火——火就是水的"承制"力量，上半年有火撑着不会太极端。关键是下半年，在泉是阳明燥金（金生水），助长了水势——所以秋冬才是真正的寒潮期。</p>
+<blockquote>
+<p><strong>核心洞察：运气的解读不是单线的"甲年=土"这么简单，而是看整个生克制化网络。</strong></p>
+</blockquote>
+<hr />
+<h3 id="今日小结">今日小结</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">概念</th>
+<th style="text-align: left;">一句话</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>客主加临</strong></td>
+<td style="text-align: left;">客气叠在主气上，看生克判断吉凶</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>四种结果</strong></td>
+<td style="text-align: left;">顺化(吉)→天刑(凶)→小逆(平)→不和(次凶)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>运气相合</strong></td>
+<td style="text-align: left;">大运+司天在泉联合分析</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>天符/岁会</strong></td>
+<td style="text-align: left;">运气特别集中的特殊格局</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>三步法</strong></td>
+<td style="text-align: left;">定大运→定六气→做加临</td>
+</tr>
+</tbody>
+</table>
+<p><strong>明天的路标</strong>：Day4收官——胜复郁发（气化的动态调节机制）、运气与体质推断、综合实战演练。同时会公布Day1-3所有练习题的答案。</p>
+<hr />
+<p><em>笔记 · Hot | 2026-05-10</em></p>
+        </div>
+
+        <div class="page-nav-wrap">
+          <a href="wuyun-liuqi-day02-liuqi-foundation.html" class="page-nav prev">‹ Day 2 · 六气基础：地支化气、司天在泉、主气客气</a>
+          <a href="wuyun-liuqi-day04-shengfu-yufa-tizhi.html" class="page-nav next">Day 4 · 胜复郁发、体质推断、综合实战 ›</a>
+        </div>
+      </article>
+    </div>
+  </main>
+</div>
+
+<button id="backToTop" class="back-to-top">↑</button>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
